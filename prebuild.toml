@@ -1,0 +1,64 @@
+[[root]]
+link = [
+	["${root}/source/apps", "${root}/_build/${platform}/${config}/apps"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/PACKAGE-LICENSES"],
+]
+
+[[root]]
+link = [
+	["${root}/tools/packman", "${root}/_build/${platform}/${config}/dev/tools/packman"],
+]
+
+[[root]]
+copy = [
+	["${root}/repo${shell_ext}", "${root}/_build/${platform}/${config}/dev"],
+	["${root}/tools/repoman/repoman.py", "${root}/_build/${platform}/${config}/dev/tools/repoman"],
+]
+
+[[root]]
+copy = [
+	["${root}/tools/repoman/repoman_bootstrapper.py", "${root}/_build/${platform}/${config}/dev/tools/repoman"],
+]
+
+[[root]]
+copy = [
+	["${root}/tools/deps/repo-deps.packman.xml", "${root}/_build/${platform}/${config}/dev/tools/deps"],
+]
+
+[[root]]
+copy = [
+	["C:/omniverse/kit-app-template/_repo/deps/repo_kit_tools/kit-template/tools/autopull/pull_extensions/${config}/pull_kit_sdk${shell_ext}", "${root}/_build/${platform}/${config}"],
+	["C:/omniverse/kit-app-template/_repo/deps/repo_kit_tools/kit-template/tools/autopull/pull_extensions/tinypull.py", "${root}/_build/${platform}/${config}/dev/tools"],
+]
+
+[[root]]
+link = [
+	["c:/omniverse/kit-app-template/source/extensions/omni_usd_composer_setup/config", "${root}/_build/${platform}/${config}/exts/omni_usd_composer_setup/config"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/exts/omni_usd_composer_setup/PACKAGE-LICENSES/dependencies"],
+]
+
+[[root]]
+copy = [
+	["${root}/_build/${platform}/${config}/kit/dev/tools/license-templates/ext-LICENSE-TEMPLATE.md", "${root}/_build/${platform}/${config}/exts/omni_usd_composer_setup/PACKAGE-LICENSES/omni_usd_composer_setup-LICENSE.md"],
+]
+
+[[root]]
+link = [
+	["c:/omniverse/kit-app-template/source/extensions/omni_usd_composer_setup/data", "${root}/_build/${platform}/${config}/exts/omni_usd_composer_setup/data"],
+	["c:/omniverse/kit-app-template/source/extensions/omni_usd_composer_setup/layouts", "${root}/_build/${platform}/${config}/exts/omni_usd_composer_setup/layouts"],
+	["c:/omniverse/kit-app-template/source/extensions/omni_usd_composer_setup/omni_usd_composer_setup", "${root}/_build/${platform}/${config}/exts/omni_usd_composer_setup/omni_usd_composer_setup"],
+]
+
+[[root]]
+copy = [
+	["${root}/tools/deps/user.toml", "${root}/_build/deps/user.toml"],
+]
+
