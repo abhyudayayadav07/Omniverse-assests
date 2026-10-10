@@ -1,0 +1,1317 @@
+2026-09-25T15:04:15Z [Info] [carb] Logging to file: C:/omniverse/kit-app-template/_build/windows-x86_64/release/logs/Kit/exts.deps.generated/0.0/kit_20260925_203415.log
+2026-09-25T15:04:15Z [0ms] [Info] [carb.crashreporter-breakpad.plugin] crashreporter configured:
+    buildVersion: '110.3.0'
+    buildNumber: '371399'
+    buildHash: '00c488ae'
+    buildBranch: 'feature'
+    buildCi: 'gl'
+    buildMajor: '110'
+    buildMinor: '3'
+    buildPatch: '0'
+    buildConfig: 'release'
+    BuildGitlabJobID: '413372079'
+    buildGitlabJobStage: 'kit-build'
+    buildGitlabJobName: 'kit-build-release-windows-x86_64'
+    buildGitlabPipelineID: '64742269'
+    profilerCpuTscFrequency: '3992241472'
+    commandLine: 'C:\omniverse\kit-app-template\_build\windows-x86_64\release\kit\kit.exe C:\omniverse\kit-app-template\_build\apps\exts.deps.generated.kit --allow-root --portable --ext-precache-mode --/crashreporter/gatherUserStory=0 --/app/settings/persistent=0 --/app/settings/loadUserConfig=0 --/app/extensions/generateVersionLock=1 --/app/extensions/parallelPullEnabled=1 --/app/enableStdoutOutput=1 --/app/extensions/detailedSolverExplanation=1 --/app/extensions/registryEnabled=1 --/app/extensions/mkdirExtFolders=0 --/app/extensions/registryCacheFull='C:\omniverse\kit-app-template\_build\windows-x86_64\release\extscache' --/log/flushStandardStreamOutput=1 --/app/extensions/target/config=release --ext-folder C:\omniverse\kit-app-template\source\extensions --ext-folder C:\omniverse\kit-app-template\source\apps --/app/extensions/generateVersionLockSkipLocalExts=1 --portable-root C:/omniverse/kit-app-template/_build/windows-x86_64/release --/app/extensions/generateVersionLockSkipLocalExts=1'
+    runningInContainer: '0'
+    upload enabled: true
+2026-09-25T15:04:15Z [1ms] [Info] [carb] Plugin carb.profiler-mux.plugin is already a dependency of carb.profiler-cpu.plugin; not changing unload order
+2026-09-25T15:04:15Z [3ms] [Info] [omni.kit.app.plugin] App Name: 'exts.deps.generated', App Version: '0.0.0', Kit Version: '110.3.0+feature.371399.00c488ae.gl', Kernel Version: '210.3.2+release.14366.2926fc80.gl'
+2026-09-25T15:04:15Z [3ms] [Info] [omni.kit.app.plugin] Cmd: C:\omniverse\kit-app-template\_build\windows-x86_64\release\kit\kit.exe C:\omniverse\kit-app-template\_build\apps\exts.deps.generated.kit --allow-root --portable --ext-precache-mode --/crashreporter/gatherUserStory=0 --/app/settings/persistent=0 --/app/settings/loadUserConfig=0 --/app/extensions/generateVersionLock=1 --/app/extensions/parallelPullEnabled=1 --/app/enableStdoutOutput=1 --/app/extensions/detailedSolverExplanation=1 --/app/extensions/registryEnabled=1 --/app/extensions/mkdirExtFolders=0 --/app/extensions/registryCacheFull='C:\omniverse\kit-app-template\_build\windows-x86_64\release\extscache' --/log/flushStandardStreamOutput=1 --/app/extensions/target/config=release --ext-folder C:\omniverse\kit-app-template\source\extensions --ext-folder C:\omniverse\kit-app-template\source\apps --/app/extensions/generateVersionLockSkipLocalExts=1 --portable-root C:/omniverse/kit-app-template/_build/windows-x86_64/release --/app/extensions/generateVersionLockSkipLocalExts=1
+2026-09-25T15:04:15Z [3ms] [Info] [omni.kit.app.plugin] Applied configs: [c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/kernel/config/kit-core.json, C:\omniverse\kit-app-template\_build\apps\exts.deps.generated.kit]
+2026-09-25T15:04:15Z [3ms] [Info] [omni.kit.app.plugin] Non-existent configs: [C:/omniverse/kit-app-template/_build/windows-x86_64/release/omni_configs/privacy.toml, C:/omniverse/kit-app-template/_build/apps/exts.deps.generated.gen.kit, C:/Users/Abhyudaya Yadav/Documents/Kit/shared/user.toml, C:/omniverse/kit-app-template/_build/apps/deps/user.toml, C:/omniverse/kit-app-template/_build/apps/deps/exts.deps.generated/user.toml, C:/omniverse/kit-app-template/_build/deps/user.toml, C:/omniverse/kit-app-template/_build/deps/exts.deps.generated/user.toml, C:/omniverse/kit-app-template/deps/user.toml, C:/omniverse/kit-app-template/deps/exts.deps.generated/user.toml, C:/omniverse/deps/user.toml, C:/omniverse/deps/exts.deps.generated/user.toml, C:/deps/user.toml, C:/deps/exts.deps.generated/user.toml, C:/ProgramData/NVIDIA Corporation/kit/kit.config.toml, C:/ProgramData/NVIDIA Corporation/kit/exts.deps.generated/kit.config.toml]
+2026-09-25T15:04:15Z [3ms] [Info] [omni.kit.app.plugin] Portable Root: 'C:/omniverse/kit-app-template/_build/windows-x86_64/release'
+2026-09-25T15:04:15Z [3ms] [Info] [omni.kit.app.plugin] Tokens:
+{
+    "exe-path": "C:/omniverse/kit-app-template/_build/windows-x86_64/release/kit",
+    "exe-filename": "kit.exe",
+    "local-config-path": "C:/omniverse/kit-app-template",
+    "custom-config-path": "C:/omniverse/kit-app-template",
+    "cli-config-path": "C:/omniverse/kit-app-template",
+    "omni_config": "C:/omniverse/kit-app-template/_build/windows-x86_64/release/omni_configs",
+    "omni_data": "C:/omniverse/kit-app-template/_build/windows-x86_64/release/data",
+    "omni_logs": "C:/omniverse/kit-app-template/_build/windows-x86_64/release/logs",
+    "omni_cache": "C:/omniverse/kit-app-template/_build/windows-x86_64/release/cache",
+    "omni_global_config": "C:/Users/Abhyudaya Yadav/.nvidia-omniverse/config",
+    "omni_global_data": "C:/Users/Abhyudaya Yadav/AppData/Local/ov/data",
+    "omni_global_logs": "C:/Users/Abhyudaya Yadav/.nvidia-omniverse/logs",
+    "omni_global_cache": "C:/Users/Abhyudaya Yadav/AppData/Local/ov/cache",
+    "temp": "C:/Users/ABHYUD~1/AppData/Local/Temp/x1nv4.0",
+    "kit": "c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit",
+    "drive": "c:/",
+    "app": "C:/omniverse/kit-app-template/_build/apps",
+    "resources": "c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/resources",
+    "fonts": "c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/resources/fonts",
+    "glyphs": "c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/resources/glyphs",
+    "icons": "c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/resources/icons",
+    "sounds": "c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/resources/sounds",
+    "models": "c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/resources/models",
+    "materials": "c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/resources/materials",
+    "config": "release",
+    "platform": "windows-x86_64",
+    "bindings_ext": ".pyd",
+    "exe_ext": ".exe",
+    "shell_ext": ".bat",
+    "lib_ext": ".dll",
+    "lib_prefix": "",
+    "session_id": "9264005418371203545",
+    "omni_documents": "C:/Users/Abhyudaya Yadav/Documents",
+    "shared_documents": "C:/Users/Abhyudaya Yadav/Documents/Kit/shared",
+    "omni_program_data": "C:/ProgramData",
+    "shared_program_data": "C:/ProgramData/NVIDIA Corporation/kit",
+    "app_program_data": "C:/ProgramData/NVIDIA Corporation/kit/exts.deps.generated",
+    "kit_version": "110.3.0+feature.371399.00c488ae.gl",
+    "usd_version": "25.11",
+    "python_version": "3.12",
+    "python": "c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/python/python.exe",
+    "kit_version_short": "110.3",
+    "kit_version_major": "110",
+    "kit_version_minor": "3",
+    "kit_version_patch": "0",
+    "kit_git_hash": "00c488ae",
+    "app_version": "0.0.0",
+    "app_version_short": "0.0",
+    "app_name": "exts.deps.generated",
+    "app_filename": "exts.deps.generated",
+    "data": "C:/omniverse/kit-app-template/_build/windows-x86_64/release/data/Kit/exts.deps.generated/0.0",
+    "logs": "C:/omniverse/kit-app-template/_build/windows-x86_64/release/logs/Kit/exts.deps.generated/0.0",
+    "cache": "C:/omniverse/kit-app-template/_build/windows-x86_64/release/cache/Kit/110.3/00c488ae",
+    "appcache": "c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/cache/Kit/110.3/00c488ae",
+    "cache_postfix": "Kit/110.3/00c488ae",
+    "app_documents": "C:/Users/Abhyudaya Yadav/Documents/Kit/apps/exts.deps.generated",
+    "documents": "C:/Users/Abhyudaya Yadav/Documents/Kit/apps/exts.deps.generated",
+    "start_timestamp": "20260925_203415",
+    "log_file": "C:/omniverse/kit-app-template/_build/windows-x86_64/release/logs/Kit/exts.deps.generated/0.0/kit_20260925_203415.log"
+}
+2026-09-25T15:04:15Z [3ms] [Info] [carb] Initializing plugin: carb.scripting-python.plugin (interfaces: [carb::scripting::IScripting v1.0]) (impl: carb.scripting-python.plugin)
+2026-09-25T15:04:15Z [4ms] [Info] [carb.scripting-python.plugin] Attempting to initialize Python interpreter. Failure of doing it will lead to the termination of the application.
+2026-09-25T15:04:15Z [4ms] [Info] [omni.ext.plugin] Extension path: 'C:/omniverse/kit-app-template/_build/extscache/' doesn't exist.
+2026-09-25T15:04:15Z [4ms] [Info] [omni.ext.plugin] Extension path: 'C:/omniverse/kit-app-template/_build/exts' doesn't exist.
+2026-09-25T15:04:15Z [5ms] [Info] [omni.ext.plugin] Extension path: 'C:/Users/Abhyudaya Yadav/Documents/Kit/apps/exts.deps.generated/exts' doesn't exist.
+2026-09-25T15:04:15Z [6ms] [Info] [omni.ext.plugin] [ext manager] preferLocalVersions: 1
+2026-09-25T15:04:15Z [6ms] [Info] [omni.ext.plugin] Extension system targets:
+  kitHash: 00c488ae
+  config: release
+  python: cp312
+  usd: u7f41+stock+25.11+cxx11
+  platform: windows-x86_64
+  kit: 110.3.0
+2026-09-25T15:04:15Z [6ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/apps/exts.deps.generated.kit' (path type: 1, dev: 0)
+2026-09-25T15:04:15Z [6ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache' (path type: 4, dev: 0)
+2026-09-25T15:04:15Z [8ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/source/apps' (path type: 0, dev: 0)
+2026-09-25T15:04:15Z [8ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/source/extensions' (path type: 0, dev: 0)
+2026-09-25T15:04:15Z [8ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extsphysics' (path type: 0, dev: 0)
+2026-09-25T15:04:15Z [9ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/users/abhyudaya yadav/documents/kit/shared/exts' (path type: 0, dev: 0)
+2026-09-25T15:04:15Z [9ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore' (path type: 0, dev: 0)
+2026-09-25T15:04:15Z [10ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/exts' (path type: 0, dev: 0)
+2026-09-25T15:04:15Z [10ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/apps' (path type: 0, dev: 0)
+2026-09-25T15:04:15Z [36ms] [Info] [carb.scripting-python.plugin] Python interpreter was successfully initialized.
+2026-09-25T15:04:15Z [39ms] [Info] [carb] Initializing plugin: carb.variant.plugin (interfaces: [carb::variant::IVariant v0.1]) (impl: carb.variant.plugin)
+2026-09-25T15:04:15Z [66ms] [Info] [omni.ext.plugin] Registered 366 extension(s), 0 unsuitable:
+  [ext: carb.audio-0.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/carb.audio-0.1.0+00c488ae.wx64.r.cp312)
+  [ext: carb.windowing.plugins-1.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/carb.windowing.plugins-1.0.1+00c488ae.wx64.r)
+  [ext: omni.activity.core-1.0.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.activity.core-1.0.4+00c488ae.wx64.r.cp312)
+  [ext: omni.activity.profiler-1.0.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.activity.profiler-1.0.4+00c488ae.wx64.r.cp312)
+  [ext: omni.activity.pump-1.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.activity.pump-1.0.1+00c488ae.wx64.r.cp312)
+  [ext: omni.activity.ui-1.3.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.activity.ui-1.3.0+00c488ae.wx64.r.cp312)
+  [ext: omni.activity.usd_resolver-1.0.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.activity.usd_resolver-1.0.4+00c488ae.wx64.r.cp312)
+  [ext: omni.anim.curve.bundle-1.4.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.anim.curve.bundle-1.4.0+110.0.0.u7f4)
+  [ext: omni.anim.curve.core-1.6.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.anim.curve.core-1.6.1+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.anim.curve.ui-1.7.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.anim.curve.ui-1.7.0+110.0.0.u7f4)
+  [ext: omni.anim.curve_editor-110.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.anim.curve_editor-110.0.0+110.0.0.u7f4)
+  [ext: omni.anim.shared.core-110.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.anim.shared.core-110.0.0+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.anim.time_samples_player-110.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.anim.time_samples_player-110.0.0+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.anim.timeline-110.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.anim.timeline-110.0.0+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.anim.window.timeline-110.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.anim.window.timeline-110.0.1+110.0.0.u7f4)
+  [ext: omni.appwindow-1.2.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.appwindow-1.2.2+00c488ae.wx64.r.cp312)
+  [ext: omni.asset_validator.core-1.20.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.asset_validator.core-1.20.1)
+  [ext: omni.asset_validator.ui-1.20.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.asset_validator.ui-1.20.1)
+  [ext: omni.assets.plugins-0.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.assets.plugins-0.0.0+00c488ae.wx64.r)
+  [ext: omni.blobkey-1.1.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.blobkey-1.1.2+00c488ae.wx64.r)
+  [ext: omni.client-1.3.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.client-1.3.0+00c488ae.wx64.r)
+  [ext: omni.configurator_publisher-110.0.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.configurator_publisher-110.0.5+110.0.0)
+  [ext: omni.convexdecomposition-110.3.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.convexdecomposition-110.3.2+110.3.0.wx64.r.cp312.u7f4)
+  [ext: omni.cubric-0.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.cubric-0.1.0+00c488ae.wx64.r)
+  [ext: omni.curve.creator-110.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.curve.creator-110.0.0+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.curve.manipulator-110.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.curve.manipulator-110.0.0+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.datastore-0.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.datastore-0.0.0+00c488ae.wx64.r)
+  [ext: omni.debugdraw-0.1.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.debugdraw-0.1.4+00c488ae.wx64.r.cp312)
+  [ext: omni.genproc.bundle-105.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.genproc.bundle-105.1.0+110.0.0)
+  [ext: omni.genproc.core-110.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.genproc.core-110.0.0+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.genproc.ui-110.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.genproc.ui-110.0.0+110.0.0)
+  [ext: omni.gpu_foundation-0.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.gpu_foundation-0.0.0+00c488ae.wx64.r.cp312)
+  [ext: omni.gpu_foundation.shadercache.d3d12-1.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.gpu_foundation.shadercache.d3d12-1.0.0+00c488ae.wx64.r)
+  [ext: omni.gpucompute.plugins-0.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.gpucompute.plugins-0.0.0+00c488ae.wx64.r)
+  [ext: omni.graph-1.142.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph-1.142.5+00c488ae.wx64.r.cp312)
+  [ext: omni.graph.action-2.10.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.action-2.10.2+110.0.0)
+  [ext: omni.graph.action_core-1.1.9] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.action_core-1.1.9+00c488ae.wx64.r.cp312)
+  [ext: omni.graph.action_nodes-2.11.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.action_nodes-2.11.0+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.graph.action_nodes_core-2.11.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.action_nodes_core-2.11.0+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.graph.bundle.action-3.10.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.bundle.action-3.10.2+110.0.0)
+  [ext: omni.graph.core-3.1.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.core-3.1.5+00c488ae.wx64.r)
+  [ext: omni.graph.examples.cpp-2.11.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.examples.cpp-2.11.0+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.graph.exec-0.9.6] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.exec-0.9.6+00c488ae.wx64.r)
+  [ext: omni.graph.image.core-0.6.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.image.core-0.6.1+00c488ae.wx64.r)
+  [ext: omni.graph.image.nodes-1.3.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.image.nodes-1.3.2+00c488ae.wx64.r)
+  [ext: omni.graph.nodes-2.12.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.nodes-2.12.0+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.graph.nodes_core-2.11.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.nodes_core-2.11.0+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.graph.scriptnode-2.10.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.scriptnode-2.10.2+110.0.0)
+  [ext: omni.graph.telemetry-3.11.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.telemetry-3.11.1+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.graph.tools-1.81.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.tools-1.81.0+00c488ae)
+  [ext: omni.graph.ui-2.10.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.ui-2.10.3+110.0.0.wx64.r.cp312)
+  [ext: omni.graph.ui_nodes-2.11.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.ui_nodes-2.11.1+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.graph.window.action-2.10.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.window.action-2.10.2+110.0.0)
+  [ext: omni.graph.window.core-3.10.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.window.core-3.10.5+110.0.0)
+  [ext: omni.graph.window.generic-2.10.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.window.generic-2.10.2+110.0.0)
+  [ext: omni.grpc.lib-1.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.grpc.lib-1.0.0+00c488ae.wx64.r)
+  [ext: omni.hsscclient-1.1.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.hsscclient-1.1.4+00c488ae.wx64.r.cp312)
+  [ext: omni.hydra.engine.stats-1.0.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.hydra.engine.stats-1.0.5+00c488ae.wx64.r.cp312)
+  [ext: omni.hydra.rtx-1.0.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.hydra.rtx-1.0.4+00c488ae.wx64.r)
+  [ext: omni.hydra.rtx.shadercache.d3d12-1.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.hydra.rtx.shadercache.d3d12-1.0.0+00c488ae.wx64.r)
+  [ext: omni.hydra.scene_delegate-0.3.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.hydra.scene_delegate-0.3.5+00c488ae.wx64.r)
+  [ext: omni.hydra.usdrt_delegate-7.5.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.hydra.usdrt_delegate-7.5.2+00c488ae.wx64.r.cp312)
+  [ext: omni.index-1.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.index-1.0.1+00c488ae.wx64.r)
+  [ext: omni.index.libs-392300.961.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.index.libs-392300.961.0+00c488ae.wx64.r)
+  [ext: omni.inspect-1.0.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.inspect-1.0.2+00c488ae.wx64.r.cp312)
+  [ext: omni.iray.libs-0.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.iray.libs-0.0.1+00c488ae.wx64.r)
+  [ext: omni.kit.actions.core-1.2.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.actions.core-1.2.0+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.actions.window-1.1.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.actions.window-1.1.4+00c488ae)
+  [ext: omni.kit.asset_converter-6.0.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.asset_converter-6.0.5+110.1.1.wx64.r.cp312.u7f4)
+  [ext: omni.kit.audiodeviceenum-1.0.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.audiodeviceenum-1.0.2+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.browser.configurator_samples-1.0.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.browser.configurator_samples-1.0.5)
+  [ext: omni.kit.browser.core-2.3.18] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.browser.core-2.3.18)
+  [ext: omni.kit.browser.folder.core-2.0.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.browser.folder.core-2.0.3)
+  [ext: omni.kit.browser.material-1.6.6] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.browser.material-1.6.6)
+  [ext: omni.kit.capture.viewport-2.11.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.capture.viewport-2.11.1+00c488ae)
+  [ext: omni.kit.clipboard-1.1.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.clipboard-1.1.1+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.collaboration.channel_manager-1.2.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.collaboration.channel_manager-1.2.0+00c488ae)
+  [ext: omni.kit.collaboration.presence_layer-1.2.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.collaboration.presence_layer-1.2.1+00c488ae)
+  [ext: omni.kit.collaboration.selection_outline-1.1.8] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.collaboration.selection_outline-1.1.8+00c488ae)
+  [ext: omni.kit.collaboration.telemetry-1.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.collaboration.telemetry-1.1.0+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.collaboration.viewport.camera-2.1.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.collaboration.viewport.camera-2.1.4+00c488ae)
+  [ext: omni.kit.commands-1.5.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.commands-1.5.0+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.context_menu-1.10.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.context_menu-1.10.0+00c488ae)
+  [ext: omni.kit.converter.cad-209.5.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.converter.cad-209.5.2+110.1.2.wx64.r.cp312.u7f4)
+  [ext: omni.kit.converter.common-511.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.converter.common-511.0.0+110.1.2.wx64.r.cp312.u7f4)
+  [ext: omni.kit.converter.dgn-510.1.7] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.converter.dgn-510.1.7+110.1.2.wx64.r.cp312.u7f4)
+  [ext: omni.kit.converter.dgn_core-513.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.converter.dgn_core-513.0.0+110.1.2.wx64.r.cp312.u7f4)
+  [ext: omni.kit.converter.hoops-510.4.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.converter.hoops-510.4.1+110.1.2.wx64.r.cp312.u7f4)
+  [ext: omni.kit.converter.hoops_core-512.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.converter.hoops_core-512.0.0+110.1.2.wx64.r.cp312.u7f4)
+  [ext: omni.kit.converter.jt-509.1.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.converter.jt-509.1.4+110.1.2.wx64.r.cp312.u7f4)
+  [ext: omni.kit.converter.jt_core-511.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.converter.jt_core-511.0.0+110.1.2.wx64.r.cp312.u7f4)
+  [ext: omni.kit.core.collection-0.2.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.core.collection-0.2.4)
+  [ext: omni.kit.data2ui.core-1.1.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.data2ui.core-1.1.4+107.0)
+  [ext: omni.kit.data2ui.usd-1.1.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.data2ui.usd-1.1.4+107.0)
+  [ext: omni.kit.debug.python-1.0.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.debug.python-1.0.2+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.debug.settings-1.0.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.debug.settings-1.0.3)
+  [ext: omni.kit.debug.vscode-0.1.7] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.debug.vscode-0.1.7+00c488ae)
+  [ext: omni.kit.dev.utilities.bundle-0.2.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.dev.utilities.bundle-0.2.1)
+  [ext: omni.kit.developer.bundle-0.2.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.developer.bundle-0.2.0)
+  [ext: omni.kit.environment.core-1.4.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.environment.core-1.4.3+107.3)
+  [ext: omni.kit.exec.core-0.13.6] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.exec.core-0.13.6+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.graph.delegate.default-1.2.6] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.graph.delegate.default-1.2.6)
+  [ext: omni.kit.graph.delegate.modern-1.10.15] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.graph.delegate.modern-1.10.15)
+  [ext: omni.kit.graph.editor.core-1.5.8] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.graph.editor.core-1.5.8)
+  [ext: omni.kit.graph.usd.commands-1.3.6] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.graph.usd.commands-1.3.6)
+  [ext: omni.kit.graph.widget.variables-2.1.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.graph.widget.variables-2.1.1)
+  [ext: omni.kit.helper.file_utils-0.1.10] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.helper.file_utils-0.1.10+00c488ae)
+  [ext: omni.kit.hotkeys.core-1.4.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.hotkeys.core-1.4.0+00c488ae)
+  [ext: omni.kit.hotkeys.window-1.4.12] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.hotkeys.window-1.4.12+00c488ae)
+  [ext: omni.kit.hydra_texture-1.6.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.hydra_texture-1.6.2+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.loop-default-0.2.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.loop-default-0.2.2+00c488ae.wx64.r)
+  [ext: omni.kit.mainwindow-1.0.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.mainwindow-1.0.4+00c488ae)
+  [ext: omni.kit.manipulator.camera-110.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.manipulator.camera-110.1.0+00c488ae)
+  [ext: omni.kit.manipulator.prim-108.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.manipulator.prim-108.0.0+00c488ae)
+  [ext: omni.kit.manipulator.prim.core-108.0.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.manipulator.prim.core-108.0.2+00c488ae)
+  [ext: omni.kit.manipulator.prim.usd-107.0.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.manipulator.prim.usd-107.0.3+00c488ae)
+  [ext: omni.kit.manipulator.selection-110.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.manipulator.selection-110.0.0+00c488ae)
+  [ext: omni.kit.manipulator.selector-1.1.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.manipulator.selector-1.1.4+00c488ae)
+  [ext: omni.kit.manipulator.tool.mesh_snap-2.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.manipulator.tool.mesh_snap-2.1.0+110.0.0)
+  [ext: omni.kit.manipulator.tool.snap-1.5.15] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.manipulator.tool.snap-1.5.15+00c488ae)
+  [ext: omni.kit.manipulator.transform-107.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.manipulator.transform-107.0.1+00c488ae)
+  [ext: omni.kit.manipulator.viewport-107.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.manipulator.viewport-107.0.1+00c488ae)
+  [ext: omni.kit.material.library-3.1.7] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.material.library-3.1.7+00c488ae)
+  [ext: omni.kit.menu.aov-1.1.8] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.menu.aov-1.1.8+00c488ae)
+  [ext: omni.kit.menu.common-2.0.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.menu.common-2.0.2+00c488ae)
+  [ext: omni.kit.menu.core-1.3.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.menu.core-1.3.0+00c488ae)
+  [ext: omni.kit.menu.create-2.0.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.menu.create-2.0.2+00c488ae)
+  [ext: omni.kit.menu.edit-2.0.12] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.menu.edit-2.0.12+00c488ae)
+  [ext: omni.kit.menu.file-1.1.24] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.menu.file-1.1.24+00c488ae)
+  [ext: omni.kit.menu.stage-1.2.7] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.menu.stage-1.2.7)
+  [ext: omni.kit.menu.utils-2.2.8] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.menu.utils-2.2.8+00c488ae)
+  [ext: omni.kit.mesh.raycast-110.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.mesh.raycast-110.0.0+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.kit.ngsearch-0.3.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.ngsearch-0.3.3)
+  [ext: omni.kit.notification_manager-1.0.16] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.notification_manager-1.0.16+00c488ae)
+  [ext: omni.kit.pip_archive-0.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.pip_archive-0.0.0+00c488ae.wx64.cp312)
+  [ext: omni.kit.pipapi-0.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.pipapi-0.0.0+00c488ae)
+  [ext: omni.kit.preferences.animation-1.5.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.preferences.animation-1.5.0+110.0.0.u7f4)
+  [ext: omni.kit.primitive.mesh-1.1.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.primitive.mesh-1.1.1+00c488ae)
+  [ext: omni.kit.property.adapter.core-1.1.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.adapter.core-1.1.1+00c488ae)
+  [ext: omni.kit.property.adapter.usd-1.0.6] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.adapter.usd-1.0.6+00c488ae)
+  [ext: omni.kit.property.audio-1.0.18] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.audio-1.0.18+00c488ae)
+  [ext: omni.kit.property.bundle-1.5.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.bundle-1.5.2+00c488ae)
+  [ext: omni.kit.property.camera-1.0.14] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.camera-1.0.14+00c488ae)
+  [ext: omni.kit.property.collection-0.2.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.collection-0.2.4)
+  [ext: omni.kit.property.environment-1.2.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.environment-1.2.3)
+  [ext: omni.kit.property.geometry-2.1.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.geometry-2.1.2+00c488ae)
+  [ext: omni.kit.property.layer-1.2.8] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.layer-1.2.8+00c488ae)
+  [ext: omni.kit.property.light-1.0.16] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.light-1.0.16+00c488ae)
+  [ext: omni.kit.property.material-1.14.10] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.material-1.14.10+00c488ae)
+  [ext: omni.kit.property.render-1.2.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.render-1.2.2+00c488ae)
+  [ext: omni.kit.property.transform-1.6.12] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.transform-1.6.12+00c488ae)
+  [ext: omni.kit.property.usd-4.9.14] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.usd-4.9.14+00c488ae)
+  [ext: omni.kit.quicklayout-1.0.12] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.quicklayout-1.0.12+00c488ae)
+  [ext: omni.kit.raycast.query-1.2.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.raycast.query-1.2.0+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.renderer.capture-2.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.renderer.capture-2.0.1+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.renderer.core-1.3.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.renderer.core-1.3.1+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.renderer.imgui-2.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.renderer.imgui-2.1.0+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.renderer.init-1.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.renderer.init-1.0.1+00c488ae.wx64.r)
+  [ext: omni.kit.search.files-1.0.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.search.files-1.0.4)
+  [ext: omni.kit.search.service-0.1.12] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.search.service-0.1.12)
+  [ext: omni.kit.search_core-1.0.8] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.search_core-1.0.8+00c488ae)
+  [ext: omni.kit.selection-0.1.6] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.selection-0.1.6+00c488ae)
+  [ext: omni.kit.sequencer.core-110.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.sequencer.core-110.0.0+110.3.0.u7f4)
+  [ext: omni.kit.sequencer.usd-110.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.sequencer.usd-110.0.0+110.3.0.u7f4)
+  [ext: omni.kit.stage.copypaste-1.2.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.stage.copypaste-1.2.4+00c488ae)
+  [ext: omni.kit.stage.mdl_converter-1.0.8] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.stage.mdl_converter-1.0.8+00c488ae)
+  [ext: omni.kit.stage_column.payload-2.0.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.stage_column.payload-2.0.5+110.3.0)
+  [ext: omni.kit.stage_column.variant-1.0.21] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.stage_column.variant-1.0.21+110.3.0)
+  [ext: omni.kit.stage_template.core-1.1.23] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.stage_template.core-1.1.23+00c488ae)
+  [ext: omni.kit.stage_templates-2.0.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.stage_templates-2.0.3+00c488ae)
+  [ext: omni.kit.telemetry-0.5.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.telemetry-0.5.2+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.test-2.1.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.test-2.1.1+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.thumbnails.mdl-1.2.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.thumbnails.mdl-1.2.0+109.0)
+  [ext: omni.kit.tool.asset_exporter-5.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.tool.asset_exporter-5.0.1+110.1.1)
+  [ext: omni.kit.tool.asset_importer-6.0.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.tool.asset_importer-6.0.2+110.1.1)
+  [ext: omni.kit.tool.collect-2.2.19] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.tool.collect-2.2.19+00c488ae)
+  [ext: omni.kit.tool.remove_unused.controller-0.3.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.tool.remove_unused.controller-0.3.1+107.3)
+  [ext: omni.kit.tool.remove_unused.core-0.1.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.tool.remove_unused.core-0.1.4)
+  [ext: omni.kit.ui.actions-1.0.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.ui.actions-1.0.5+00c488ae)
+  [ext: omni.kit.uiapp-0.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.uiapp-0.0.0+00c488ae)
+  [ext: omni.kit.usd.collect-3.0.6] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.usd.collect-3.0.6+00c488ae)
+  [ext: omni.kit.usd.layers-2.7.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.usd.layers-2.7.2+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.usd.mdl-1.1.11] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.usd.mdl-1.1.11+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.usd_undo-0.1.8] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.usd_undo-0.1.8+00c488ae)
+  [ext: omni.kit.usda_edit-1.1.19] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.usda_edit-1.1.19+00c488ae)
+  [ext: omni.kit.usdz_export-1.1.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.usdz_export-1.1.1+00c488ae)
+  [ext: omni.kit.variant.editor-107.5.10] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.variant.editor-107.5.10+110.0)
+  [ext: omni.kit.variant.presenter-107.1.6] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.variant.presenter-107.1.6+107.3)
+  [ext: omni.kit.viewport.actions-110.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.actions-110.1.0+00c488ae)
+  [ext: omni.kit.viewport.bundle-107.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.bundle-107.0.0+00c488ae)
+  [ext: omni.kit.viewport.legacy_gizmos-1.0.24] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.legacy_gizmos-1.0.24+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.viewport.manipulator.transform-107.0.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.manipulator.transform-107.0.4+00c488ae)
+  [ext: omni.kit.viewport.menubar.camera-107.0.14] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.menubar.camera-107.0.14+00c488ae)
+  [ext: omni.kit.viewport.menubar.core-110.0.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.menubar.core-110.0.3+00c488ae)
+  [ext: omni.kit.viewport.menubar.display-110.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.menubar.display-110.0.0+00c488ae)
+  [ext: omni.kit.viewport.menubar.framerate-1.0.10] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.menubar.framerate-1.0.10)
+  [ext: omni.kit.viewport.menubar.lighting-107.3.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.menubar.lighting-107.3.4+107.3.0)
+  [ext: omni.kit.viewport.menubar.render-110.1.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.menubar.render-110.1.1+00c488ae)
+  [ext: omni.kit.viewport.menubar.settings-110.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.menubar.settings-110.0.1+00c488ae)
+  [ext: omni.kit.viewport.ready-1.0.9] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.ready-1.0.9+00c488ae)
+  [ext: omni.kit.viewport.registry-104.0.6] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.registry-104.0.6+00c488ae)
+  [ext: omni.kit.viewport.rtx-107.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.rtx-107.0.0+00c488ae)
+  [ext: omni.kit.viewport.scene_camera_model-1.0.7] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.scene_camera_model-1.0.7+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.viewport.utility-2.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.utility-2.1.0+00c488ae)
+  [ext: omni.kit.viewport.window-110.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport.window-110.0.1+00c488ae)
+  [ext: omni.kit.viewport_widgets_manager-1.0.9] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.viewport_widgets_manager-1.0.9+00c488ae)
+  [ext: omni.kit.widget.browser_bar-2.0.11] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.browser_bar-2.0.11+00c488ae)
+  [ext: omni.kit.widget.cache_indicator-3.0.13] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.cache_indicator-3.0.13+00c488ae)
+  [ext: omni.kit.widget.calendar-1.0.9] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.calendar-1.0.9)
+  [ext: omni.kit.widget.collection-0.3.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.collection-0.3.3+106.5.0)
+  [ext: omni.kit.widget.connection_manager-1.0.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.connection_manager-1.0.3+00c488ae)
+  [ext: omni.kit.widget.context_menu-1.5.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.context_menu-1.5.0+00c488ae)
+  [ext: omni.kit.widget.extended_searchfield-1.0.31] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.extended_searchfield-1.0.31)
+  [ext: omni.kit.widget.filebrowser-2.14.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.filebrowser-2.14.0+00c488ae)
+  [ext: omni.kit.widget.filter-1.1.8] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.filter-1.1.8+00c488ae)
+  [ext: omni.kit.widget.graph-2.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.graph-2.1.0+00c488ae)
+  [ext: omni.kit.widget.highlight_label-1.0.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.highlight_label-1.0.3+00c488ae)
+  [ext: omni.kit.widget.imageview-1.0.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.imageview-1.0.5+00c488ae)
+  [ext: omni.kit.widget.layers-1.9.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.layers-1.9.3+00c488ae)
+  [ext: omni.kit.widget.live-2.1.12] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.live-2.1.12+00c488ae)
+  [ext: omni.kit.widget.live_session_management-1.2.28] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.live_session_management-1.2.28+00c488ae)
+  [ext: omni.kit.widget.live_session_management.ui-1.0.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.live_session_management.ui-1.0.4+00c488ae)
+  [ext: omni.kit.widget.material_preview-1.1.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.material_preview-1.1.3+107.3)
+  [ext: omni.kit.widget.nucleus_connector-2.4.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.nucleus_connector-2.4.0+00c488ae)
+  [ext: omni.kit.widget.nucleus_info-2.0.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.nucleus_info-2.0.2+00c488ae)
+  [ext: omni.kit.widget.options_button-1.0.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.options_button-1.0.3+00c488ae)
+  [ext: omni.kit.widget.options_menu-1.1.7] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.options_menu-1.1.7+00c488ae)
+  [ext: omni.kit.widget.path_field-2.0.13] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.path_field-2.0.13+00c488ae)
+  [ext: omni.kit.widget.prompt-1.0.7] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.prompt-1.0.7+00c488ae)
+  [ext: omni.kit.widget.search_delegate-1.0.10] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.search_delegate-1.0.10+00c488ae)
+  [ext: omni.kit.widget.searchable_combobox-1.0.7] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.searchable_combobox-1.0.7+00c488ae)
+  [ext: omni.kit.widget.searchfield-1.1.8] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.searchfield-1.1.8+00c488ae)
+  [ext: omni.kit.widget.settings-2.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.settings-2.0.1+00c488ae)
+  [ext: omni.kit.widget.sliderbar-1.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.sliderbar-1.1.0+107.3)
+  [ext: omni.kit.widget.stage-4.6.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.stage-4.6.5+00c488ae)
+  [ext: omni.kit.widget.stage_icons-1.0.8] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.stage_icons-1.0.8+00c488ae)
+  [ext: omni.kit.widget.text_editor-1.1.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.text_editor-1.1.1+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.widget.timeline-107.0.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.timeline-107.0.4+110.3.0)
+  [ext: omni.kit.widget.toolbar-2.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.toolbar-2.1.0+00c488ae)
+  [ext: omni.kit.widget.versioning-1.4.15] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.versioning-1.4.15+00c488ae)
+  [ext: omni.kit.widget.viewport-110.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.viewport-110.0.0+00c488ae)
+  [ext: omni.kit.widget.zoombar-1.0.7] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.zoombar-1.0.7)
+  [ext: omni.kit.widgets.custom-1.1.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widgets.custom-1.1.3+107.3)
+  [ext: omni.kit.window.about-1.3.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.about-1.3.1+00c488ae)
+  [ext: omni.kit.window.collection-0.3.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.collection-0.3.5+106.5.0)
+  [ext: omni.kit.window.commands-0.2.10] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.commands-0.2.10+00c488ae)
+  [ext: omni.kit.window.console-1.1.10] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.console-1.1.10+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.window.content_browser-3.1.12] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.content_browser-3.1.12+00c488ae)
+  [ext: omni.kit.window.content_browser_registry-0.0.6] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.content_browser_registry-0.0.6+00c488ae)
+  [ext: omni.kit.window.cursor-1.1.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.cursor-1.1.5+00c488ae)
+  [ext: omni.kit.window.drop_support-1.0.8] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.drop_support-1.0.8+00c488ae)
+  [ext: omni.kit.window.environment-1.8.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.environment-1.8.1+107.3)
+  [ext: omni.kit.window.extensions-1.5.16] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.extensions-1.5.16+00c488ae)
+  [ext: omni.kit.window.file-2.0.15] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.file-2.0.15+00c488ae)
+  [ext: omni.kit.window.file_exporter-1.0.38] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.file_exporter-1.0.38+00c488ae)
+  [ext: omni.kit.window.file_importer-1.1.22] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.file_importer-1.1.22+00c488ae)
+  [ext: omni.kit.window.filepicker-3.0.14] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.filepicker-3.0.14+00c488ae)
+  [ext: omni.kit.window.material-1.8.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.material-1.8.0+107.3)
+  [ext: omni.kit.window.material_graph-2.2.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.material_graph-2.2.1+110.0.wx64.r.cp312)
+  [ext: omni.kit.window.modifier.titlebar-107.0.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.modifier.titlebar-107.0.3+107.0.3.wx64.cp312)
+  [ext: omni.kit.window.movie_capture-3.0.9] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.movie_capture-3.0.9+109.0)
+  [ext: omni.kit.window.popup_dialog-2.0.26] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.popup_dialog-2.0.26+00c488ae)
+  [ext: omni.kit.window.preferences-1.8.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.preferences-1.8.5+00c488ae)
+  [ext: omni.kit.window.property-1.15.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.property-1.15.2+00c488ae)
+  [ext: omni.kit.window.quicksearch-2.4.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.quicksearch-2.4.4)
+  [ext: omni.kit.window.script_editor-2.0.10] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.script_editor-2.0.10+00c488ae)
+  [ext: omni.kit.window.stage-2.6.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.stage-2.6.1+00c488ae)
+  [ext: omni.kit.window.stats-0.1.8] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.stats-0.1.8+00c488ae)
+  [ext: omni.kit.window.status_bar-0.1.11] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.status_bar-0.1.11+00c488ae.wx64.r.cp312)
+  [ext: omni.kit.window.title-1.1.8] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.title-1.1.8+00c488ae)
+  [ext: omni.kit.window.toolbar-3.0.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.toolbar-3.0.3+00c488ae)
+  [ext: omni.kit.window.usd_paths-1.0.9] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.usd_paths-1.0.9+00c488ae)
+  [ext: omni.light_rigs-106.3.7] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.light_rigs-106.3.7)
+  [ext: omni.materialx.libs-1.0.9] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.materialx.libs-1.0.9+00c488ae.wx64.r.cp312)
+  [ext: omni.mdl-57.0.6] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.mdl-57.0.6+00c488ae.wx64.r.cp312)
+  [ext: omni.mdl.neuraylib-0.2.22] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.mdl.neuraylib-0.2.22+00c488ae.wx64.r.cp312)
+  [ext: omni.mdl.usd_converter-1.0.40] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.mdl.usd_converter-1.0.40+00c488ae)
+  [ext: omni.metrics.core-0.0.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.metrics.core-0.0.3+00c488ae.wx64.r)
+  [ext: omni.no_code_ui.authoring-1.1.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.no_code_ui.authoring-1.1.4+107.0)
+  [ext: omni.no_code_ui.bundle-1.1.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.no_code_ui.bundle-1.1.4+107.0)
+  [ext: omni.ocio-0.1.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ocio-0.1.1+00c488ae.wx64.r.cp312)
+  [ext: omni.physx-110.3.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.physx-110.3.2+110.3.0.wx64.r.cp312.u7f4)
+  [ext: omni.physx.cooking-110.3.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.physx.cooking-110.3.2+110.3.0.wx64.r.cp312.u7f4)
+  [ext: omni.physx.foundation-110.3.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.physx.foundation-110.3.2+110.3.0.wx64.r.cp312.u7f4)
+  [ext: omni.physx.gpu-110.3.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.physx.gpu-110.3.2+110.3.0.wx64.r.cp312.u7f4)
+  [ext: omni.physx.stageupdate-110.3.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.physx.stageupdate-110.3.2+110.3.0.wx64.r.cp312.u7f4)
+  [ext: omni.protobuf.lib-1.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.protobuf.lib-1.0.1+00c488ae.wx64.r)
+  [ext: omni.ramp-110.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ramp-110.0.0+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.resourcemonitor-107.1.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.resourcemonitor-107.1.1+00c488ae.wx64.r.cp312)
+  [ext: omni.rtx.settings.core-0.7.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.rtx.settings.core-0.7.1+00c488ae)
+  [ext: omni.rtx.window.settings-0.8.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.rtx.window.settings-0.8.2+00c488ae.wx64.r.cp312)
+  [ext: omni.scene.optimizer.analysis-110.2.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.scene.optimizer.analysis-110.2.1+110.2.0)
+  [ext: omni.scene.optimizer.bundle-110.2.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.scene.optimizer.bundle-110.2.1+110.2.0)
+  [ext: omni.scene.optimizer.core-110.2.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.scene.optimizer.core-110.2.1+110.2.0.wx64.r.cp312.u7f4)
+  [ext: omni.scene.optimizer.ui-110.2.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.scene.optimizer.ui-110.2.1+110.2.0)
+  [ext: omni.scene.optimizer.validators-110.2.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.scene.optimizer.validators-110.2.1+110.2.0)
+  [ext: omni.scene.visualization.bundle-105.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.scene.visualization.bundle-105.1.0+110.0.0)
+  [ext: omni.scene.visualization.core-110.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.scene.visualization.core-110.0.0+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.scene.visualization.ui-107.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.scene.visualization.ui-107.0.1+110.0.0)
+  [ext: omni.services.client-0.5.9] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.services.client-0.5.9)
+  [ext: omni.services.convert.asset-510.0.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.services.convert.asset-510.0.4+110.1.2.wx64.r.cp312.u7f4)
+  [ext: omni.services.convert.cad-508.0.6] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.services.convert.cad-508.0.6+110.1.2.wx64.r.cp312.u7f4)
+  [ext: omni.services.core-1.12.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.services.core-1.12.0)
+  [ext: omni.services.facilities.base-1.0.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.services.facilities.base-1.0.5)
+  [ext: omni.services.facilities.monitoring.metrics-0.3.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.services.facilities.monitoring.metrics-0.3.2)
+  [ext: omni.services.facilities.monitoring.progress-0.2.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.services.facilities.monitoring.progress-0.2.4)
+  [ext: omni.services.pip_archive-0.18.14] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.services.pip_archive-0.18.14+110.2.0.wx64.cp312)
+  [ext: omni.services.transport.client.base-1.2.5] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.services.transport.client.base-1.2.5)
+  [ext: omni.services.transport.client.http_async-1.4.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.services.transport.client.http_async-1.4.2)
+  [ext: omni.services.transport.server.base-1.1.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.services.transport.server.base-1.1.2)
+  [ext: omni.services.transport.server.http-1.3.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.services.transport.server.http-1.3.2)
+  [ext: omni.stats-1.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.stats-1.0.1+00c488ae.wx64.r.cp312)
+  [ext: omni.timeline-1.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.timeline-1.1.0+00c488ae.wx64.r.cp312)
+  [ext: omni.timeline.live_session-1.1.7] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.timeline.live_session-1.1.7+00c488ae)
+  [ext: omni.ui-3.3.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+  [ext: omni.ui.scene-2.0.4] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui.scene-2.0.4+00c488ae.wx64.r.cp312)
+  [ext: omni.ui_query-1.1.12] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui_query-1.1.12+00c488ae)
+  [ext: omni.uiaudio-1.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.uiaudio-1.0.0+00c488ae.wx64.r.cp312)
+  [ext: omni.ujitso.client-0.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ujitso.client-0.0.0+00c488ae.wx64.r)
+  [ext: omni.ujitso.default-1.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ujitso.default-1.0.0+00c488ae.wx64.r.cp312)
+  [ext: omni.usd-1.18.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd-1.18.0+00c488ae.wx64.r.cp312)
+  [ext: omni.usd.config-1.0.8] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.config-1.0.8+00c488ae)
+  [ext: omni.usd.core-1.10.10] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.core-1.10.10+00c488ae.wx64.r)
+  [ext: omni.usd.libs-1.0.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.libs-1.0.3+00c488ae.wx64.r.cp312)
+  [ext: omni.usd.metrics.assembler-110.1.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.metrics.assembler-110.1.2+110.1.0.wx64.r.cp312.u7f4)
+  [ext: omni.usd.metrics.assembler.ui-110.1.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.metrics.assembler.ui-110.1.1+110.1.0.cp312.u7f4)
+  [ext: omni.usd.schema.anim-0.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.anim-0.0.1+00c488ae.wx64.r.cp312)
+  [ext: omni.usd.schema.audio-0.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.audio-0.0.1+00c488ae.wx64.r.cp312)
+  [ext: omni.usd.schema.geospatial-0.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.geospatial-0.0.1+00c488ae.wx64.r.cp312)
+  [ext: omni.usd.schema.metrics.assembler-110.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.metrics.assembler-110.1.0+110.1.0.wx64.r.cp312.u7f4)
+  [ext: omni.usd.schema.newton-1.4.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.newton-1.4.0+110.3.0.cp312.u7f4)
+  [ext: omni.usd.schema.omni_dome_light-1.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.omni_dome_light-1.0.0+00c488ae)
+  [ext: omni.usd.schema.omni_projectors-1.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.omni_projectors-1.0.0+00c488ae)
+  [ext: omni.usd.schema.omnigraph-1.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.omnigraph-1.0.1+00c488ae.wx64.r.cp312)
+  [ext: omni.usd.schema.physical_lighting-0.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.physical_lighting-0.1.0+00c488ae.wx64.r.cp312)
+  [ext: omni.usd.schema.physx-110.3.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.physx-110.3.2+110.3.0.wx64.r.cp312.u7f4)
+  [ext: omni.usd.schema.playback-1.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.playback-1.1.0+00c488ae)
+  [ext: omni.usd.schema.render_settings.rtx-1.0.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.render_settings.rtx-1.0.3+00c488ae)
+  [ext: omni.usd.schema.scene.visualization-2.0.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.scene.visualization-2.0.2+110.0.0)
+  [ext: omni.usd.schema.sequence-3.2.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.sequence-3.2.0+110.3.0.wx64.r.cp312.u7f4)
+  [ext: omni.usd.schema.usd_particle_field-1.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.usd_particle_field-1.0.0+00c488ae)
+  [ext: omni.usd_resolver-1.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd_resolver-1.0.0+00c488ae.wx64.r.cp312)
+  [ext: omni.usdex.libs-2.3.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usdex.libs-2.3.0+110.0.0.wx64.r.cp312.u7f4)
+  [ext: omni.usdphysics-110.3.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usdphysics-110.3.2+110.3.0.wx64.r.cp312.u7f4)
+  [ext: omni.videoencoding-0.2.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.videoencoding-0.2.1+00c488ae.wx64.r.cp312)
+  [ext: omni.volume-0.5.2] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.volume-0.5.2+00c488ae.wx64.r.cp312)
+  [ext: omni.warp-1.14.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.warp-1.14.0)
+  [ext: omni.warp.core-1.14.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.warp.core-1.14.0+wx64)
+  [ext: omni.warp.core-1.16.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.warp.core-1.16.0+wx64)
+  [ext: usdrt.scenegraph-7.6.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/usdrt.scenegraph-7.6.3+00c488ae.wx64.r.cp312)
+  [ext: iitp_digital_twin-0.1.0] registered (path: c:/omniverse/kit-app-template/source/apps/iitp_digital_twin.kit)
+  [ext: iitp_digital_twin_core-0.1.0] registered (path: c:/omniverse/kit-app-template/source/apps/iitp_digital_twin_core.kit)
+  [ext: omni_usd_composer_setup-0.1.0] registered (path: c:/omniverse/kit-app-template/source/extensions/omni_usd_composer_setup)
+  [ext: omni.client.lib-1.1.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore/omni.client.lib)
+  [ext: omni.kit.async_engine-0.0.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore/omni.kit.async_engine)
+  [ext: omni.kit.registry.nucleus-0.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore/omni.kit.registry.nucleus)
+  [ext: omni.app.dev-1.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/apps/omni.app.dev.kit)
+  [ext: omni.app.dev.nvcf-1.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/apps/omni.app.dev.nvcf.kit)
+  [ext: omni.app.dev.xr.avp-1.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/apps/omni.app.dev.xr.avp.kit)
+  [ext: omni.app.dev.xr.ipad-1.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/apps/omni.app.dev.xr.ipad.kit)
+  [ext: omni.app.editor.base-1.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/apps/omni.app.editor.base.kit)
+  [ext: omni.app.empty-0.1.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/apps/omni.app.empty.kit)
+  [ext: omni.app.full-1.0.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/apps/omni.app.full.kit)
+  [ext: omni.app.hydra-1.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/apps/omni.app.hydra.kit)
+  [ext: omni.app.mini-0.1.1] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/apps/omni.app.mini.kit)
+  [ext: omni.app.viewport-1.0.0] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/apps/omni.app.viewport.kit)
+2026-09-25T15:04:15Z [230ms] [Info] [omni.kit.app._impl] python GC: gc.disable()
+2026-09-25T15:04:15Z [232ms] [Info] [omni.ext.plugin] [ext manager] preferLocalVersions: 1
+2026-09-25T15:04:15Z [232ms] [Info] [omni.ext.plugin] Processing exts enabling request: 'exts.deps.generated-0.0.0'
+2026-09-25T15:04:15Z [232ms] [Info] [omni.kit.app.plugin] [0.368s] Failed to solve some dependencies locally, syncing with extension registry...
+2026-09-25T15:04:15Z [234ms] [Info] [omni.ext.plugin] Failed to resolve extension dependencies. Failure hints:
+  * No versions of omni.kit.ui_test that satisfies: exts.deps.generated-0.0.0 depends on omni.kit.ui_test version *
+    - Available packages for omni.kit.ui_test version *:
+      (none found)
+  Synced registries:
+     (none)
+
+2026-09-25T15:04:15Z [234ms] [Info] [omni.ext.plugin] Enabling registry extension...
+2026-09-25T15:04:15Z [234ms] [Info] [omni.ext.plugin] Extension system targets:
+  kitHash: 00c488ae
+  config: release
+  python: cp312
+  usd: u7f41+stock+25.11+cxx11
+  platform: windows-x86_64
+  kit: 110.3.0
+2026-09-25T15:04:15Z [234ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/apps/exts.deps.generated.kit' (path type: 1, dev: 0)
+2026-09-25T15:04:15Z [234ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache' (path type: 4, dev: 0)
+2026-09-25T15:04:15Z [235ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/source/apps' (path type: 0, dev: 0)
+2026-09-25T15:04:15Z [235ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/source/extensions' (path type: 0, dev: 0)
+2026-09-25T15:04:15Z [235ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extsphysics' (path type: 0, dev: 0)
+2026-09-25T15:04:15Z [236ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/users/abhyudaya yadav/documents/kit/shared/exts' (path type: 0, dev: 0)
+2026-09-25T15:04:15Z [236ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore' (path type: 0, dev: 0)
+2026-09-25T15:04:15Z [236ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/exts' (path type: 0, dev: 0)
+2026-09-25T15:04:15Z [236ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/apps' (path type: 0, dev: 0)
+2026-09-25T15:04:15Z [236ms] [Info] [omni.ext.plugin] Processing exts enabling request: 'omni.kit.registry.nucleus'
+2026-09-25T15:04:15Z [236ms] [Info] [omni.ext.plugin] Solver result: succeeded. nodes: 3. time: 0.0737 (ms) iterations: 4 backtracks: 0 cycles: 0 unitprops: 3
+Extensions dependency solver solution:
+[ext: omni.kit.registry.nucleus-0.0.0] deps:
+ -> 'omni.client.lib' = { version='^' } selected: [omni.client.lib-1.1.1]
+    - Available packages for omni.client.lib version *:
+      + omni.client.lib-1.1.1+wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore/omni.client.lib)
+[ext: omni.client.lib-1.1.1] deps:
+ -> 'omni.kit.async_engine' = { version='^' } selected: [omni.kit.async_engine-0.0.3]
+    - Available packages for omni.kit.async_engine version *:
+      + omni.kit.async_engine-0.0.3 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore/omni.kit.async_engine)
+[ext: omni.kit.async_engine-0.0.3] no deps
+  Synced registries:
+     (none)
+
+2026-09-25T15:04:15Z [237ms] [Info] [carb] Plugin carb.scripting-python.plugin is already a dependency of omni.kit.app.plugin; not changing unload order
+2026-09-25T15:04:15Z [237ms] [Info] [omni.ext.plugin] About to startup: [ext: omni.kit.async_engine-0.0.3] (order: 0) Triggered by: omni.client.lib-1.1.1 (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore/omni.kit.async_engine)
+2026-09-25T15:04:15Z [237ms] [Info] [omni.kit.app.plugin] [0.373s] [ext: omni.kit.async_engine-0.0.3] startup
+2026-09-25T15:04:15Z [241ms] [Info] [omni.ext._impl.utils] -> func:_refresh_cache took: 0.0156s
+2026-09-25T15:04:15Z [347ms] [Info] [omni.ext._impl._internal] Searching for classes derived from 'omni.ext.IExt' in 'omni.kit.async_engine' ('c:\omniverse\kit-app-template\_build\windows-x86_64\release\kit\extscore\omni.kit.async_engine')
+2026-09-25T15:04:15Z [348ms] [Info] [omni.ext._impl._internal] Found class `_AsyncEngineDriver` derived from `omni.ext.IExt` in module: 'omni.kit.async_engine' in 'c:\omniverse\kit-app-template\_build\windows-x86_64\release\kit\extscore\omni.kit.async_engine'. Calling `on_startup`.
+2026-09-25T15:04:15Z [348ms] [Info] [omni.kit.async_engine.async_engine] policy: <asyncio.windows_events.WindowsProactorEventLoopPolicy object at 0x000001C3A238B7A0> from /exts/omni.kit.async_engine/event_loop_policy_windows = "os_default"
+2026-09-25T15:04:15Z [350ms] [Info] [omni.kit.async_engine.async_engine] loop:   <ProactorEventLoop running=False closed=False debug=False> from /exts/omni.kit.async_engine/event_loop_windows = "os_default"
+2026-09-25T15:04:15Z [350ms] [Info] [omni.ext.plugin] [ext: omni.kit.async_engine-0.0.3] started, startup time: 113 (ms)
+2026-09-25T15:04:15Z [351ms] [Info] [omni.ext.plugin] About to startup: [ext: omni.client.lib-1.1.1] (order: 0) Triggered by: omni.kit.registry.nucleus-0.0.0 (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore/omni.client.lib)
+2026-09-25T15:04:15Z [351ms] [Info] [omni.kit.app.plugin] [0.487s] [ext: omni.client.lib-1.1.1] startup
+2026-09-25T15:04:15Z [358ms] [Info] [omni.ext.plugin] Loaded the dynamic library from c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore/omni.client.lib/bin/omniclient.dll
+2026-09-25T15:04:15Z [363ms] [Info] [omni.ext._impl._internal] Searching for classes derived from 'omni.ext.IExt' in 'omni.client' ('c:\omniverse\kit-app-template\_build\windows-x86_64\release\kit\extscore\omni.client.lib')
+2026-09-25T15:04:15Z [363ms] [Info] [omni.ext.plugin] [ext: omni.client.lib-1.1.1] started, startup time: 12 (ms)
+2026-09-25T15:04:15Z [363ms] [Info] [omni.ext.plugin] About to startup: [ext: omni.kit.registry.nucleus-0.0.0] (order: -1000) Triggered by API/CLI/Config. (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore/omni.kit.registry.nucleus)
+2026-09-25T15:04:15Z [363ms] [Info] [omni.kit.app.plugin] [0.499s] [ext: omni.kit.registry.nucleus-0.0.0] startup
+2026-09-25T15:04:15Z [400ms] [Info] [omni.ext._impl._internal] Searching for classes derived from 'omni.ext.IExt' in 'omni.kit.registry.nucleus' ('c:\omniverse\kit-app-template\_build\windows-x86_64\release\kit\extscore\omni.kit.registry.nucleus')
+2026-09-25T15:04:15Z [400ms] [Info] [omni.ext._impl._internal] Found class `RegistryProviderExt` derived from `omni.ext.IExt` in module: 'omni.kit.registry.nucleus' in 'c:\omniverse\kit-app-template\_build\windows-x86_64\release\kit\extscore\omni.kit.registry.nucleus'. Calling `on_startup`.
+2026-09-25T15:04:15Z [400ms] [Info] [omni.kit.registry.nucleus.utils.s3_mock] S3 mock not enabled in settings
+2026-09-25T15:04:15Z [401ms] [Info] [omni.kit.registry.nucleus.utils.common] global cache path: C:/Users/Abhyudaya Yadav/AppData/Local/ov/data/exts/v2
+2026-09-25T15:04:15Z [401ms] [Info] [omni.kit.registry.nucleus.registry_manager] 'trusted' is not set for registry 'kit/prod/default' in '/exts/omni.kit.registry.nucleus/registries'
+2026-09-25T15:04:15Z [401ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/default] [v2] creating RegistryIndexV2(), index url: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/110.3/shared/v2, index local cache: C:/Users/Abhyudaya Yadav/AppData/Local/ov/data/exts/v2/index/5d5c1910
+2026-09-25T15:04:15Z [401ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/default] [v1] creating RegistryIndexV1(), index url: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/110.3/shared/3
+2026-09-25T15:04:15Z [401ms] [Info] [omni.kit.registry.nucleus.registry_manager] 'trusted' is not set for registry 'kit/prod/sdk' in '/exts/omni.kit.registry.nucleus/registries'
+2026-09-25T15:04:15Z [402ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/sdk] [v2] creating RegistryIndexV2(), index url: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/sdk/110.3/00c488ae/v2, index local cache: C:/Users/Abhyudaya Yadav/AppData/Local/ov/data/exts/v2/index/0cf3dc4c
+2026-09-25T15:04:15Z [402ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/sdk] [v1] creating RegistryIndexV1(), index url: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/sdk/110.3/00c488ae/3
+2026-09-25T15:04:15Z [402ms] [Info] [omni.ext.plugin] [ext: omni.kit.registry.nucleus-0.0.0] started, startup time: 38 (ms)
+2026-09-25T15:04:15Z [402ms] [Info] [omni.ext.plugin] Syncing extension registry...
+2026-09-25T15:04:15Z [402ms] [Info] [omni.ext.plugin] Syncing extension registry for provider 'kit/prod/default'.
+2026-09-25T15:04:15Z [402ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/default] sync_index called.
+2026-09-25T15:04:15Z [402ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/default] [v2] _ensure_synced(resync=False) called
+2026-09-25T15:04:15Z [402ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/default] [v2] Syncing index...
+2026-09-25T15:04:15Z [403ms] [Info] [omni.kit.registry.nucleus.index_v2.index_sync] trying to take index_sync lock on: C:/Users/Abhyudaya Yadav/AppData/Local/ov/data/exts/v2/index/5d5c1910/registry.lock
+2026-09-25T15:04:15Z [404ms] [Info] [omni.kit.registry.nucleus.utils.http_utils] Checking HTTP reachability for https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/110.3/shared/v2/registry.gz (timeout=3.0)
+2026-09-25T15:04:17Z [2,246ms] [Info] [omni.kit.registry.nucleus.utils.omni_client_utils] omni.client.read_file: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/110.3/shared/v2/registry.gz
+2026-09-25T15:04:18Z [3,178ms] [Info] [omni.kit.registry.nucleus.utils.omni_client_utils] read_file result: Result.OK
+2026-09-25T15:04:18Z [3,188ms] [Info] [omni.kit.registry.nucleus.utils.common] index synced. index_is_new: False
+2026-09-25T15:04:18Z [3,188ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/default] selected index version implementation: RegistryIndexV2
+2026-09-25T15:04:18Z [3,195ms] [Info] [omni.ext.plugin] Syncing extension registry for provider 'kit/prod/sdk'.
+2026-09-25T15:04:18Z [3,196ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/sdk] sync_index called.
+2026-09-25T15:04:18Z [3,196ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/sdk] [v2] _ensure_synced(resync=False) called
+2026-09-25T15:04:18Z [3,196ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/sdk] [v2] Syncing index...
+2026-09-25T15:04:18Z [3,196ms] [Info] [omni.kit.registry.nucleus.index_v2.index_sync] trying to take index_sync lock on: C:/Users/Abhyudaya Yadav/AppData/Local/ov/data/exts/v2/index/0cf3dc4c/registry.lock
+2026-09-25T15:04:18Z [3,197ms] [Info] [omni.kit.registry.nucleus.utils.http_utils] Checking HTTP reachability for https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/sdk/110.3/00c488ae/v2/registry.gz (timeout=3.0)
+2026-09-25T15:04:19Z [4,354ms] [Info] [omni.kit.registry.nucleus.utils.omni_client_utils] omni.client.read_file: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/sdk/110.3/00c488ae/v2/registry.gz
+2026-09-25T15:04:20Z [4,639ms] [Info] [omni.kit.registry.nucleus.utils.omni_client_utils] read_file result: Result.OK
+2026-09-25T15:04:20Z [4,647ms] [Info] [omni.kit.registry.nucleus.utils.common] index synced. index_is_new: False
+2026-09-25T15:04:20Z [4,647ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/sdk] selected index version implementation: RegistryIndexV2
+2026-09-25T15:04:20Z [4,691ms] [Info] [omni.ext.plugin] Solver result: succeeded. nodes: 74. time: 35.8397 (ms) iterations: 145 backtracks: 0 cycles: 0 unitprops: 143
+Extensions dependency solver solution:
+[ext: exts.deps.generated-0.0.0] deps:
+ -> 'omni_usd_composer_setup' = { version='^' } selected: [omni_usd_composer_setup-0.1.0]
+    - Available packages for omni_usd_composer_setup version *:
+      + omni_usd_composer_setup-0.1.0 (c:/omniverse/kit-app-template/source/extensions/omni_usd_composer_setup)
+ -> 'omni.kit.test' = { version='^' } selected: [omni.kit.test-2.1.1]
+    - Available packages for omni.kit.test version *:
+      + omni.kit.test-2.1.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.test-2.1.1+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.ui_test' = { version='^' } selected: [omni.kit.ui_test-1.5.3]
+    - Available packages for omni.kit.ui_test version *:
+      + omni.kit.ui_test-1.5.3+00c488ae (registry)
+[ext: omni_usd_composer_setup-0.1.0] deps:
+ -> 'omni.kit.commands' = { version='^' } selected: [omni.kit.commands-1.5.0]
+    - Available packages for omni.kit.commands version *:
+      + omni.kit.commands-1.5.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.commands-1.5.0+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.menu.utils' = { version='^' } selected: [omni.kit.menu.utils-2.2.8]
+    - Available packages for omni.kit.menu.utils version *:
+      + omni.kit.menu.utils-2.2.8+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.menu.utils-2.2.8+00c488ae)
+ -> 'omni.kit.property.usd' = { version='^' } selected: [omni.kit.property.usd-4.9.14]
+    - Available packages for omni.kit.property.usd version *:
+      + omni.kit.property.usd-4.9.14+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.usd-4.9.14+00c488ae)
+ -> 'omni.kit.quicklayout' = { version='^' } selected: [omni.kit.quicklayout-1.0.12]
+    - Available packages for omni.kit.quicklayout version *:
+      + omni.kit.quicklayout-1.0.12+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.quicklayout-1.0.12+00c488ae)
+ -> 'omni.kit.stage_templates' = { version='^' } selected: [omni.kit.stage_templates-2.0.3]
+    - Available packages for omni.kit.stage_templates version *:
+      + omni.kit.stage_templates-2.0.3+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.stage_templates-2.0.3+00c488ae)
+ -> 'omni.kit.window.property' = { version='^' } selected: [omni.kit.window.property-1.15.2]
+    - Available packages for omni.kit.window.property version *:
+      + omni.kit.window.property-1.15.2+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.property-1.15.2+00c488ae)
+ -> 'omni.kit.window.title' = { version='^' } selected: [omni.kit.window.title-1.1.8]
+    - Available packages for omni.kit.window.title version *:
+      + omni.kit.window.title-1.1.8+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.title-1.1.8+00c488ae)
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.18.0]
+    - Available packages for omni.usd version *:
+      + omni.usd-1.18.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd-1.18.0+00c488ae.wx64.r.cp312)
+[ext: omni.kit.window.title-1.1.8] deps:
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.18.0]
+    - Available packages for omni.usd version *:
+      + omni.usd-1.18.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd-1.18.0+00c488ae.wx64.r.cp312)
+ -> 'omni.appwindow' = { version='^' } selected: [omni.appwindow-1.2.2]
+    - Available packages for omni.appwindow version *:
+      + omni.appwindow-1.2.2+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.appwindow-1.2.2+00c488ae.wx64.r.cp312)
+[ext: omni.kit.ui_test-1.5.3] deps:
+ -> 'omni.kit.test' = { version='^' } selected: [omni.kit.test-2.1.1]
+    - Available packages for omni.kit.test version *:
+      + omni.kit.test-2.1.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.test-2.1.1+00c488ae.wx64.r.cp312)
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.ui_query' = { version='^' } selected: [omni.ui_query-1.1.12]
+    - Available packages for omni.ui_query version *:
+      + omni.ui_query-1.1.12+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui_query-1.1.12+00c488ae)
+[ext: omni.ui_query-1.1.12] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+[ext: omni.kit.stage_templates-2.0.3] deps:
+ -> 'omni.kit.commands' = { version='^' } selected: [omni.kit.commands-1.5.0]
+    - Available packages for omni.kit.commands version *:
+      + omni.kit.commands-1.5.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.commands-1.5.0+00c488ae.wx64.r.cp312)
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.18.0]
+    - Available packages for omni.usd version *:
+      + omni.usd-1.18.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd-1.18.0+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.actions.core' = { version='^' } selected: [omni.kit.actions.core-1.2.0]
+    - Available packages for omni.kit.actions.core version *:
+      + omni.kit.actions.core-1.2.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.actions.core-1.2.0+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.stage_template.core' = { version='^' } selected: [omni.kit.stage_template.core-1.1.23]
+    - Available packages for omni.kit.stage_template.core version *:
+      + omni.kit.stage_template.core-1.1.23+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.stage_template.core-1.1.23+00c488ae)
+ -> 'omni.kit.primitive.mesh' = { version='^' } selected: [omni.kit.primitive.mesh-1.1.1]
+    - Available packages for omni.kit.primitive.mesh version *:
+      + omni.kit.primitive.mesh-1.1.1+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.primitive.mesh-1.1.1+00c488ae)
+[ext: omni.kit.stage_template.core-1.1.23] deps:
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.18.0]
+    - Available packages for omni.usd version *:
+      + omni.usd-1.18.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd-1.18.0+00c488ae.wx64.r.cp312)
+[ext: omni.kit.quicklayout-1.0.12] deps:
+ -> 'omni.kit.menu.utils' = { version='^' } selected: [omni.kit.menu.utils-2.2.8]
+    - Available packages for omni.kit.menu.utils version *:
+      + omni.kit.menu.utils-2.2.8+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.menu.utils-2.2.8+00c488ae)
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.actions.core' = { version='^' } selected: [omni.kit.actions.core-1.2.0]
+    - Available packages for omni.kit.actions.core version *:
+      + omni.kit.actions.core-1.2.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.actions.core-1.2.0+00c488ae.wx64.r.cp312)
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0]
+    - Available packages for omni.client version *:
+      + omni.client-1.3.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.client-1.3.0+00c488ae.wx64.r)
+ -> 'omni.kit.notification_manager' = { version='^' } selected: [omni.kit.notification_manager-1.0.16]
+    - Available packages for omni.kit.notification_manager version *:
+      + omni.kit.notification_manager-1.0.16+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.notification_manager-1.0.16+00c488ae)
+ -> 'omni.kit.mainwindow' = { version='^' } selected: [omni.kit.mainwindow-1.0.4]
+    - Available packages for omni.kit.mainwindow version *:
+      + omni.kit.mainwindow-1.0.4+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.mainwindow-1.0.4+00c488ae)
+ -> 'omni.kit.window.filepicker' = { version='^' optional=true  } selected: [omni.kit.window.filepicker-3.0.14]
+    - Available packages for omni.kit.window.filepicker version *:
+      + omni.kit.window.filepicker-3.0.14+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.filepicker-3.0.14+00c488ae)
+[ext: omni.kit.property.usd-4.9.14] deps:
+ -> 'omni.kit.commands' = { version='^' } selected: [omni.kit.commands-1.5.0]
+    - Available packages for omni.kit.commands version *:
+      + omni.kit.commands-1.5.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.commands-1.5.0+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.window.property' = { version='^' } selected: [omni.kit.window.property-1.15.2]
+    - Available packages for omni.kit.window.property version *:
+      + omni.kit.window.property-1.15.2+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.property-1.15.2+00c488ae)
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.18.0]
+    - Available packages for omni.usd version *:
+      + omni.usd-1.18.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd-1.18.0+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.async_engine' = { version='^' } selected: [omni.kit.async_engine-0.0.3]
+    - Available packages for omni.kit.async_engine version *:
+      + omni.kit.async_engine-0.0.3 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore/omni.kit.async_engine)
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0]
+    - Available packages for omni.client version *:
+      + omni.client-1.3.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.client-1.3.0+00c488ae.wx64.r)
+ -> 'omni.timeline' = { version='^' } selected: [omni.timeline-1.1.0]
+    - Available packages for omni.timeline version *:
+      + omni.timeline-1.1.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.timeline-1.1.0+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.widget.stage' = { version='^' } selected: [omni.kit.widget.stage-4.6.5]
+    - Available packages for omni.kit.widget.stage version *:
+      + omni.kit.widget.stage-4.6.5+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.stage-4.6.5+00c488ae)
+ -> 'omni.kit.clipboard' = { version='^' } selected: [omni.kit.clipboard-1.1.1]
+    - Available packages for omni.kit.clipboard version *:
+      + omni.kit.clipboard-1.1.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.clipboard-1.1.1+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.widget.context_menu' = { version='^' } selected: [omni.kit.widget.context_menu-1.5.0]
+    - Available packages for omni.kit.widget.context_menu version *:
+      + omni.kit.widget.context_menu-1.5.0+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.context_menu-1.5.0+00c488ae)
+ -> 'omni.kit.usd.layers' = { version='^' } selected: [omni.kit.usd.layers-2.7.2]
+    - Available packages for omni.kit.usd.layers version *:
+      + omni.kit.usd.layers-2.7.2+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.usd.layers-2.7.2+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.notification_manager' = { version='^' optional=true  } selected: [omni.kit.notification_manager-1.0.16]
+    - Available packages for omni.kit.notification_manager version *:
+      + omni.kit.notification_manager-1.0.16+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.notification_manager-1.0.16+00c488ae)
+ -> 'usdrt.scenegraph' = { version='^' } selected: [usdrt.scenegraph-7.6.3]
+    - Available packages for usdrt.scenegraph version *:
+      + usdrt.scenegraph-7.6.3+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/usdrt.scenegraph-7.6.3+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.property.adapter.core' = { version='^' } selected: [omni.kit.property.adapter.core-1.1.1]
+    - Available packages for omni.kit.property.adapter.core version *:
+      + omni.kit.property.adapter.core-1.1.1+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.adapter.core-1.1.1+00c488ae)
+ -> 'omni.kit.property.adapter.usd' = { version='^' } selected: [omni.kit.property.adapter.usd-1.0.6]
+    - Available packages for omni.kit.property.adapter.usd version *:
+      + omni.kit.property.adapter.usd-1.0.6+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.adapter.usd-1.0.6+00c488ae)
+ -> 'omni.usd.schema.playback' = { version='^' } selected: [omni.usd.schema.playback-1.1.0]
+    - Available packages for omni.usd.schema.playback version *:
+      + omni.usd.schema.playback-1.1.0+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.playback-1.1.0+00c488ae)
+[ext: omni.usd.schema.playback-1.1.0] deps:
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.3]
+    - Available packages for omni.usd.libs version *:
+      + omni.usd.libs-1.0.3+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.libs-1.0.3+00c488ae.wx64.r.cp312)
+[ext: omni.kit.window.property-1.15.2] deps:
+ -> 'omni.kit.menu.utils' = { version='^' } selected: [omni.kit.menu.utils-2.2.8]
+    - Available packages for omni.kit.menu.utils version *:
+      + omni.kit.menu.utils-2.2.8+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.menu.utils-2.2.8+00c488ae)
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.async_engine' = { version='^' } selected: [omni.kit.async_engine-0.0.3]
+    - Available packages for omni.kit.async_engine version *:
+      + omni.kit.async_engine-0.0.3 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore/omni.kit.async_engine)
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0]
+    - Available packages for omni.client version *:
+      + omni.client-1.3.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.client-1.3.0+00c488ae.wx64.r)
+ -> 'omni.kit.widget.context_menu' = { version='^' } selected: [omni.kit.widget.context_menu-1.5.0]
+    - Available packages for omni.kit.widget.context_menu version *:
+      + omni.kit.widget.context_menu-1.5.0+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.context_menu-1.5.0+00c488ae)
+ -> 'omni.kit.widget.highlight_label' = { version='^' } selected: [omni.kit.widget.highlight_label-1.0.3]
+    - Available packages for omni.kit.widget.highlight_label version *:
+      + omni.kit.widget.highlight_label-1.0.3+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.highlight_label-1.0.3+00c488ae)
+ -> 'omni.kit.widget.searchfield' = { version='^' } selected: [omni.kit.widget.searchfield-1.1.8]
+    - Available packages for omni.kit.widget.searchfield version *:
+      + omni.kit.widget.searchfield-1.1.8+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.searchfield-1.1.8+00c488ae)
+[ext: omni.kit.widget.stage-4.6.5] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.18.0]
+    - Available packages for omni.usd version *:
+      + omni.usd-1.18.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd-1.18.0+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.actions.core' = { version='^' } selected: [omni.kit.actions.core-1.2.0]
+    - Available packages for omni.kit.actions.core version *:
+      + omni.kit.actions.core-1.2.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.actions.core-1.2.0+00c488ae.wx64.r.cp312)
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0]
+    - Available packages for omni.client version *:
+      + omni.client-1.3.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.client-1.3.0+00c488ae.wx64.r)
+ -> 'omni.kit.usd.layers' = { version='^' } selected: [omni.kit.usd.layers-2.7.2]
+    - Available packages for omni.kit.usd.layers version *:
+      + omni.kit.usd.layers-2.7.2+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.usd.layers-2.7.2+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.notification_manager' = { version='^' optional=true  } selected: [omni.kit.notification_manager-1.0.16]
+    - Available packages for omni.kit.notification_manager version *:
+      + omni.kit.notification_manager-1.0.16+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.notification_manager-1.0.16+00c488ae)
+ -> 'usdrt.scenegraph' = { version='^' } selected: [usdrt.scenegraph-7.6.3]
+    - Available packages for usdrt.scenegraph version *:
+      + usdrt.scenegraph-7.6.3+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/usdrt.scenegraph-7.6.3+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.widget.searchfield' = { version='^' } selected: [omni.kit.widget.searchfield-1.1.8]
+    - Available packages for omni.kit.widget.searchfield version *:
+      + omni.kit.widget.searchfield-1.1.8+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.searchfield-1.1.8+00c488ae)
+ -> 'omni.activity.core' = { version='^' } selected: [omni.activity.core-1.0.4]
+    - Available packages for omni.activity.core version *:
+      + omni.activity.core-1.0.4+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.activity.core-1.0.4+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.window.file_exporter' = { version='^' } selected: [omni.kit.window.file_exporter-1.0.38]
+    - Available packages for omni.kit.window.file_exporter version *:
+      + omni.kit.window.file_exporter-1.0.38+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.file_exporter-1.0.38+00c488ae)
+ -> 'omni.kit.hotkeys.core' = { version='^' } selected: [omni.kit.hotkeys.core-1.4.0]
+    - Available packages for omni.kit.hotkeys.core version *:
+      + omni.kit.hotkeys.core-1.4.0+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.hotkeys.core-1.4.0+00c488ae)
+ -> 'omni.kit.helper.file_utils' = { version='^' } selected: [omni.kit.helper.file_utils-0.1.10]
+    - Available packages for omni.kit.helper.file_utils version *:
+      + omni.kit.helper.file_utils-0.1.10+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.helper.file_utils-0.1.10+00c488ae)
+ -> 'omni.kit.widget.filter' = { version='^' } selected: [omni.kit.widget.filter-1.1.8]
+    - Available packages for omni.kit.widget.filter version *:
+      + omni.kit.widget.filter-1.1.8+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.filter-1.1.8+00c488ae)
+ -> 'omni.kit.widget.options_button' = { version='^' } selected: [omni.kit.widget.options_button-1.0.3]
+    - Available packages for omni.kit.widget.options_button version *:
+      + omni.kit.widget.options_button-1.0.3+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.options_button-1.0.3+00c488ae)
+ -> 'omni.usd.schema.audio' = { version='^' optional=true  } selected: [omni.usd.schema.audio-0.0.1]
+    - Available packages for omni.usd.schema.audio version *:
+      + omni.usd.schema.audio-0.0.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.audio-0.0.1+00c488ae.wx64.r.cp312)
+[ext: omni.kit.window.file_exporter-1.0.38] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.usd' = { version='^' optional=true  } selected: [omni.usd-1.18.0]
+    - Available packages for omni.usd version *:
+      + omni.usd-1.18.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd-1.18.0+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.window.filepicker' = { version='^' } selected: [omni.kit.window.filepicker-3.0.14]
+    - Available packages for omni.kit.window.filepicker version *:
+      + omni.kit.window.filepicker-3.0.14+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.filepicker-3.0.14+00c488ae)
+[ext: omni.kit.window.filepicker-3.0.14] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0]
+    - Available packages for omni.client version *:
+      + omni.client-1.3.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.client-1.3.0+00c488ae.wx64.r)
+ -> 'omni.kit.clipboard' = { version='^' } selected: [omni.kit.clipboard-1.1.1]
+    - Available packages for omni.kit.clipboard version *:
+      + omni.kit.clipboard-1.1.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.clipboard-1.1.1+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.widget.context_menu' = { version='^' } selected: [omni.kit.widget.context_menu-1.5.0]
+    - Available packages for omni.kit.widget.context_menu version *:
+      + omni.kit.widget.context_menu-1.5.0+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.context_menu-1.5.0+00c488ae)
+ -> 'omni.kit.notification_manager' = { version='^' } selected: [omni.kit.notification_manager-1.0.16]
+    - Available packages for omni.kit.notification_manager version *:
+      + omni.kit.notification_manager-1.0.16+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.notification_manager-1.0.16+00c488ae)
+ -> 'omni.usd.core' = { version='^' optional=true  } selected: [omni.usd.core-1.10.10]
+    - Available packages for omni.usd.core version *:
+      + omni.usd.core-1.10.10+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.core-1.10.10+00c488ae.wx64.r)
+ -> 'omni.kit.widget.connection_manager' = { version='^' } selected: [omni.kit.widget.connection_manager-1.0.3]
+    - Available packages for omni.kit.widget.connection_manager version *:
+      + omni.kit.widget.connection_manager-1.0.3+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.connection_manager-1.0.3+00c488ae)
+ -> 'omni.kit.helper.file_utils' = { version='^' } selected: [omni.kit.helper.file_utils-0.1.10]
+    - Available packages for omni.kit.helper.file_utils version *:
+      + omni.kit.helper.file_utils-0.1.10+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.helper.file_utils-0.1.10+00c488ae)
+ -> 'omni.kit.widget.options_button' = { version='^' } selected: [omni.kit.widget.options_button-1.0.3]
+    - Available packages for omni.kit.widget.options_button version *:
+      + omni.kit.widget.options_button-1.0.3+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.options_button-1.0.3+00c488ae)
+ -> 'omni.kit.widget.filebrowser' = { version='^' } selected: [omni.kit.widget.filebrowser-2.14.0]
+    - Available packages for omni.kit.widget.filebrowser version *:
+      + omni.kit.widget.filebrowser-2.14.0+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.filebrowser-2.14.0+00c488ae)
+ -> 'omni.kit.window.popup_dialog' = { version='^' } selected: [omni.kit.window.popup_dialog-2.0.26]
+    - Available packages for omni.kit.window.popup_dialog version *:
+      + omni.kit.window.popup_dialog-2.0.26+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.popup_dialog-2.0.26+00c488ae)
+ -> 'omni.ui.scene' = { version='^' } selected: [omni.ui.scene-2.0.4]
+    - Available packages for omni.ui.scene version *:
+      + omni.ui.scene-2.0.4+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui.scene-2.0.4+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.widget.browser_bar' = { version='^' } selected: [omni.kit.widget.browser_bar-2.0.11]
+    - Available packages for omni.kit.widget.browser_bar version *:
+      + omni.kit.widget.browser_bar-2.0.11+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.browser_bar-2.0.11+00c488ae)
+ -> 'omni.kit.widget.nucleus_connector' = { version='^' } selected: [omni.kit.widget.nucleus_connector-2.4.0]
+    - Available packages for omni.kit.widget.nucleus_connector version *:
+      + omni.kit.widget.nucleus_connector-2.4.0+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.nucleus_connector-2.4.0+00c488ae)
+[ext: omni.ui.scene-2.0.4] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+[ext: omni.kit.widget.searchfield-1.1.8] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+[ext: omni.kit.widget.options_button-1.0.3] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.widget.options_menu' = { version='^' } selected: [omni.kit.widget.options_menu-1.1.7]
+    - Available packages for omni.kit.widget.options_menu version *:
+      + omni.kit.widget.options_menu-1.1.7+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.options_menu-1.1.7+00c488ae)
+[ext: omni.kit.widget.nucleus_connector-2.4.0] deps:
+ -> 'omni.kit.widget.connection_manager' = { version='^' } selected: [omni.kit.widget.connection_manager-1.0.3]
+    - Available packages for omni.kit.widget.connection_manager version *:
+      + omni.kit.widget.connection_manager-1.0.3+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.connection_manager-1.0.3+00c488ae)
+[ext: omni.kit.widget.highlight_label-1.0.3] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+[ext: omni.kit.widget.filter-1.1.8] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.widget.options_menu' = { version='^' } selected: [omni.kit.widget.options_menu-1.1.7]
+    - Available packages for omni.kit.widget.options_menu version *:
+      + omni.kit.widget.options_menu-1.1.7+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.options_menu-1.1.7+00c488ae)
+[ext: omni.kit.widget.options_menu-1.1.7] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+[ext: omni.kit.widget.filebrowser-2.14.0] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0]
+    - Available packages for omni.client version *:
+      + omni.client-1.3.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.client-1.3.0+00c488ae.wx64.r)
+ -> 'omni.kit.helper.file_utils' = { version='^' } selected: [omni.kit.helper.file_utils-0.1.10]
+    - Available packages for omni.kit.helper.file_utils version *:
+      + omni.kit.helper.file_utils-0.1.10+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.helper.file_utils-0.1.10+00c488ae)
+[ext: omni.kit.widget.context_menu-1.5.0] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.async_engine' = { version='^' } selected: [omni.kit.async_engine-0.0.3]
+    - Available packages for omni.kit.async_engine version *:
+      + omni.kit.async_engine-0.0.3 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore/omni.kit.async_engine)
+ -> 'omni.kit.menu.core' = { version='^' } selected: [omni.kit.menu.core-1.3.0]
+    - Available packages for omni.kit.menu.core version *:
+      + omni.kit.menu.core-1.3.0+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.menu.core-1.3.0+00c488ae)
+[ext: omni.kit.widget.browser_bar-2.0.11] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.widget.path_field' = { version='^' } selected: [omni.kit.widget.path_field-2.0.13]
+    - Available packages for omni.kit.widget.path_field version *:
+      + omni.kit.widget.path_field-2.0.13+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.path_field-2.0.13+00c488ae)
+[ext: omni.kit.widget.path_field-2.0.13] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+[ext: omni.kit.property.adapter.usd-1.0.6] deps:
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.18.0]
+    - Available packages for omni.usd version *:
+      + omni.usd-1.18.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd-1.18.0+00c488ae.wx64.r.cp312)
+ -> 'usdrt.scenegraph' = { version='^' } selected: [usdrt.scenegraph-7.6.3]
+    - Available packages for usdrt.scenegraph version *:
+      + usdrt.scenegraph-7.6.3+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/usdrt.scenegraph-7.6.3+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.property.adapter.core' = { version='^' } selected: [omni.kit.property.adapter.core-1.1.1]
+    - Available packages for omni.kit.property.adapter.core version *:
+      + omni.kit.property.adapter.core-1.1.1+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.property.adapter.core-1.1.1+00c488ae)
+[ext: usdrt.scenegraph-7.6.3] deps:
+ -> 'omni.usd.core' = { version='^' } selected: [omni.usd.core-1.10.10]
+    - Available packages for omni.usd.core version *:
+      + omni.usd.core-1.10.10+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.core-1.10.10+00c488ae.wx64.r)
+ -> 'omni.gpucompute.plugins' = { version='^' } selected: [omni.gpucompute.plugins-0.0.0]
+    - Available packages for omni.gpucompute.plugins version *:
+      + omni.gpucompute.plugins-0.0.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.gpucompute.plugins-0.0.0+00c488ae.wx64.r)
+ -> 'omni.cubric' = { version='^' } selected: [omni.cubric-0.1.0]
+    - Available packages for omni.cubric version *:
+      + omni.cubric-0.1.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.cubric-0.1.0+00c488ae.wx64.r)
+[ext: omni.kit.property.adapter.core-1.1.1] deps:
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.18.0]
+    - Available packages for omni.usd version *:
+      + omni.usd-1.18.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd-1.18.0+00c488ae.wx64.r.cp312)
+[ext: omni.kit.primitive.mesh-1.1.1] deps:
+ -> 'omni.kit.commands' = { version='^' } selected: [omni.kit.commands-1.5.0]
+    - Available packages for omni.kit.commands version *:
+      + omni.kit.commands-1.5.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.commands-1.5.0+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.menu.utils' = { version='^' optional=true  } selected: [omni.kit.menu.utils-2.2.8]
+    - Available packages for omni.kit.menu.utils version *:
+      + omni.kit.menu.utils-2.2.8+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.menu.utils-2.2.8+00c488ae)
+ -> 'omni.ui' = { version='^' optional=true  } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.18.0]
+    - Available packages for omni.usd version *:
+      + omni.usd-1.18.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd-1.18.0+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.actions.core' = { version='^' } selected: [omni.kit.actions.core-1.2.0]
+    - Available packages for omni.kit.actions.core version *:
+      + omni.kit.actions.core-1.2.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.actions.core-1.2.0+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.usd.layers' = { version='^' } selected: [omni.kit.usd.layers-2.7.2]
+    - Available packages for omni.kit.usd.layers version *:
+      + omni.kit.usd.layers-2.7.2+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.usd.layers-2.7.2+00c488ae.wx64.r.cp312)
+[ext: omni.kit.usd.layers-2.7.2] deps:
+ -> 'omni.kit.commands' = { version='^' } selected: [omni.kit.commands-1.5.0]
+    - Available packages for omni.kit.commands version *:
+      + omni.kit.commands-1.5.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.commands-1.5.0+00c488ae.wx64.r.cp312)
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.18.0]
+    - Available packages for omni.usd version *:
+      + omni.usd-1.18.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd-1.18.0+00c488ae.wx64.r.cp312)
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0]
+    - Available packages for omni.client version *:
+      + omni.client-1.3.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.client-1.3.0+00c488ae.wx64.r)
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.3]
+    - Available packages for omni.usd.libs version *:
+      + omni.usd.libs-1.0.3+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.libs-1.0.3+00c488ae.wx64.r.cp312)
+[ext: omni.kit.notification_manager-1.0.16] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+[ext: omni.kit.menu.utils-2.2.8] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.actions.core' = { version='^' } selected: [omni.kit.actions.core-1.2.0]
+    - Available packages for omni.kit.actions.core version *:
+      + omni.kit.actions.core-1.2.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.actions.core-1.2.0+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.menu.core' = { version='^' } selected: [omni.kit.menu.core-1.3.0]
+    - Available packages for omni.kit.menu.core version *:
+      + omni.kit.menu.core-1.3.0+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.menu.core-1.3.0+00c488ae)
+[ext: omni.kit.menu.core-1.3.0] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+[ext: omni.kit.hotkeys.core-1.4.0] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.actions.core' = { version='^' } selected: [omni.kit.actions.core-1.2.0]
+    - Available packages for omni.kit.actions.core version *:
+      + omni.kit.actions.core-1.2.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.actions.core-1.2.0+00c488ae.wx64.r.cp312)
+[ext: omni.kit.helper.file_utils-0.1.10] deps:
+ -> 'omni.usd' = { version='^' optional=true  } selected: [omni.usd-1.18.0]
+    - Available packages for omni.usd version *:
+      + omni.usd-1.18.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd-1.18.0+00c488ae.wx64.r.cp312)
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0]
+    - Available packages for omni.client version *:
+      + omni.client-1.3.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.client-1.3.0+00c488ae.wx64.r)
+[ext: omni.usd-1.18.0] deps:
+ -> 'omni.kit.commands' = { version='^' } selected: [omni.kit.commands-1.5.0]
+    - Available packages for omni.kit.commands version *:
+      + omni.kit.commands-1.5.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.commands-1.5.0+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.async_engine' = { version='^' } selected: [omni.kit.async_engine-0.0.3]
+    - Available packages for omni.kit.async_engine version *:
+      + omni.kit.async_engine-0.0.3 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore/omni.kit.async_engine)
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0]
+    - Available packages for omni.client version *:
+      + omni.client-1.3.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.client-1.3.0+00c488ae.wx64.r)
+ -> 'omni.timeline' = { version='^' } selected: [omni.timeline-1.1.0]
+    - Available packages for omni.timeline version *:
+      + omni.timeline-1.1.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.timeline-1.1.0+00c488ae.wx64.r.cp312)
+ -> 'omni.usd.core' = { version='^' } selected: [omni.usd.core-1.10.10]
+    - Available packages for omni.usd.core version *:
+      + omni.usd.core-1.10.10+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.core-1.10.10+00c488ae.wx64.r)
+ -> 'omni.assets.plugins' = { version='^' } selected: [omni.assets.plugins-0.0.0]
+    - Available packages for omni.assets.plugins version *:
+      + omni.assets.plugins-0.0.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.assets.plugins-0.0.0+00c488ae.wx64.r)
+ -> 'omni.kit.audiodeviceenum' = { version='^' } selected: [omni.kit.audiodeviceenum-1.0.2]
+    - Available packages for omni.kit.audiodeviceenum version *:
+      + omni.kit.audiodeviceenum-1.0.2+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.audiodeviceenum-1.0.2+00c488ae.wx64.r.cp312)
+ -> 'carb.audio' = { version='^' } selected: [carb.audio-0.1.0]
+    - Available packages for carb.audio version *:
+      + carb.audio-0.1.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/carb.audio-0.1.0+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.widget.connection_manager' = { version='^' optional=true  } selected: [omni.kit.widget.connection_manager-1.0.3]
+    - Available packages for omni.kit.widget.connection_manager version *:
+      + omni.kit.widget.connection_manager-1.0.3+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.widget.connection_manager-1.0.3+00c488ae)
+ -> 'omni.kit.exec.core' = { version='^' } selected: [omni.kit.exec.core-0.13.6]
+    - Available packages for omni.kit.exec.core version *:
+      + omni.kit.exec.core-0.13.6+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.exec.core-0.13.6+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.usd_undo' = { version='^' } selected: [omni.kit.usd_undo-0.1.8]
+    - Available packages for omni.kit.usd_undo version *:
+      + omni.kit.usd_undo-0.1.8+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.usd_undo-0.1.8+00c488ae)
+[ext: omni.usd.core-1.10.10] deps:
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0]
+    - Available packages for omni.client version *:
+      + omni.client-1.3.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.client-1.3.0+00c488ae.wx64.r)
+ -> 'omni.usd.schema.audio' = { version='^' } selected: [omni.usd.schema.audio-0.0.1]
+    - Available packages for omni.usd.schema.audio version *:
+      + omni.usd.schema.audio-0.0.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.schema.audio-0.0.1+00c488ae.wx64.r.cp312)
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.3]
+    - Available packages for omni.usd.libs version *:
+      + omni.usd.libs-1.0.3+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.libs-1.0.3+00c488ae.wx64.r.cp312)
+ -> 'omni.usd_resolver' = { version='^' } selected: [omni.usd_resolver-1.0.0]
+    - Available packages for omni.usd_resolver version *:
+      + omni.usd_resolver-1.0.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd_resolver-1.0.0+00c488ae.wx64.r.cp312)
+[ext: omni.usd_resolver-1.0.0] deps:
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0]
+    - Available packages for omni.client version *:
+      + omni.client-1.3.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.client-1.3.0+00c488ae.wx64.r)
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.3]
+    - Available packages for omni.usd.libs version *:
+      + omni.usd.libs-1.0.3+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.libs-1.0.3+00c488ae.wx64.r.cp312)
+[ext: omni.timeline-1.1.0] no deps
+[ext: omni.kit.widget.connection_manager-1.0.3] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.pip_archive' = { version='^' } selected: [omni.kit.pip_archive-0.0.0]
+    - Available packages for omni.kit.pip_archive version *:
+      + omni.kit.pip_archive-0.0.0+00c488ae.wx64.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.pip_archive-0.0.0+00c488ae.wx64.cp312)
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0]
+    - Available packages for omni.client version *:
+      + omni.client-1.3.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.client-1.3.0+00c488ae.wx64.r)
+ -> 'omni.kit.window.popup_dialog' = { version='^' } selected: [omni.kit.window.popup_dialog-2.0.26]
+    - Available packages for omni.kit.window.popup_dialog version *:
+      + omni.kit.window.popup_dialog-2.0.26+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.window.popup_dialog-2.0.26+00c488ae)
+[ext: omni.kit.window.popup_dialog-2.0.26] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+[ext: omni.kit.usd_undo-0.1.8] deps:
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.3]
+    - Available packages for omni.usd.libs version *:
+      + omni.usd.libs-1.0.3+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.libs-1.0.3+00c488ae.wx64.r.cp312)
+[ext: omni.kit.exec.core-0.13.6] deps:
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.3]
+    - Available packages for omni.usd.libs version *:
+      + omni.usd.libs-1.0.3+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.libs-1.0.3+00c488ae.wx64.r.cp312)
+ -> 'omni.graph.exec' = { version='^' } selected: [omni.graph.exec-0.9.6]
+    - Available packages for omni.graph.exec version *:
+      + omni.graph.exec-0.9.6+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.graph.exec-0.9.6+00c488ae.wx64.r)
+[ext: omni.kit.commands-1.5.0] deps:
+ -> 'omni.kit.actions.core' = { version='^' } selected: [omni.kit.actions.core-1.2.0]
+    - Available packages for omni.kit.actions.core version *:
+      + omni.kit.actions.core-1.2.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.actions.core-1.2.0+00c488ae.wx64.r.cp312)
+[ext: omni.kit.clipboard-1.1.1] deps:
+ -> 'omni.appwindow' = { version='^' } selected: [omni.appwindow-1.2.2]
+    - Available packages for omni.appwindow version *:
+      + omni.appwindow-1.2.2+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.appwindow-1.2.2+00c488ae.wx64.r.cp312)
+[ext: omni.kit.audiodeviceenum-1.0.2] deps:
+ -> 'carb.audio' = { version='^' } selected: [carb.audio-0.1.0]
+    - Available packages for carb.audio version *:
+      + carb.audio-0.1.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/carb.audio-0.1.0+00c488ae.wx64.r.cp312)
+[ext: omni.kit.actions.core-1.2.0] no deps
+[ext: omni.graph.exec-0.9.6] no deps
+[ext: omni.cubric-0.1.0] no deps
+[ext: omni.activity.core-1.0.4] no deps
+[ext: carb.audio-0.1.0] deps:
+ -> 'omni.assets.plugins' = { version='^' } selected: [omni.assets.plugins-0.0.0]
+    - Available packages for omni.assets.plugins version *:
+      + omni.assets.plugins-0.0.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.assets.plugins-0.0.0+00c488ae.wx64.r)
+[ext: omni.usd.schema.audio-0.0.1] deps:
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.3]
+    - Available packages for omni.usd.libs version *:
+      + omni.usd.libs-1.0.3+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.libs-1.0.3+00c488ae.wx64.r.cp312)
+[ext: omni.kit.mainwindow-1.0.4] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-3.3.1]
+    - Available packages for omni.ui version *:
+      + omni.ui-3.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.ui-3.3.1+00c488ae.wx64.r.cp312)
+[ext: omni.ui-3.3.1] deps:
+ -> 'omni.appwindow' = { version='^' } selected: [omni.appwindow-1.2.2]
+    - Available packages for omni.appwindow version *:
+      + omni.appwindow-1.2.2+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.appwindow-1.2.2+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.renderer.imgui' = { version='^' } selected: [omni.kit.renderer.imgui-2.1.0]
+    - Available packages for omni.kit.renderer.imgui version *:
+      + omni.kit.renderer.imgui-2.1.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.renderer.imgui-2.1.0+00c488ae.wx64.r.cp312)
+[ext: omni.kit.renderer.imgui-2.1.0] deps:
+ -> 'omni.appwindow' = { version='^' } selected: [omni.appwindow-1.2.2]
+    - Available packages for omni.appwindow version *:
+      + omni.appwindow-1.2.2+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.appwindow-1.2.2+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.renderer.core' = { version='^' } selected: [omni.kit.renderer.core-1.3.1]
+    - Available packages for omni.kit.renderer.core version *:
+      + omni.kit.renderer.core-1.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.renderer.core-1.3.1+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.renderer.capture' = { version='^' } selected: [omni.kit.renderer.capture-2.0.1]
+    - Available packages for omni.kit.renderer.capture version *:
+      + omni.kit.renderer.capture-2.0.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.renderer.capture-2.0.1+00c488ae.wx64.r.cp312)
+[ext: omni.kit.renderer.capture-2.0.1] deps:
+ -> 'omni.kit.renderer.core' = { version='^' } selected: [omni.kit.renderer.core-1.3.1]
+    - Available packages for omni.kit.renderer.core version *:
+      + omni.kit.renderer.core-1.3.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.renderer.core-1.3.1+00c488ae.wx64.r.cp312)
+[ext: omni.kit.renderer.core-1.3.1] deps:
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0]
+    - Available packages for omni.client version *:
+      + omni.client-1.3.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.client-1.3.0+00c488ae.wx64.r)
+ -> 'omni.appwindow' = { version='^' } selected: [omni.appwindow-1.2.2]
+    - Available packages for omni.appwindow version *:
+      + omni.appwindow-1.2.2+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.appwindow-1.2.2+00c488ae.wx64.r.cp312)
+ -> 'omni.kit.renderer.init' = { version='^' } selected: [omni.kit.renderer.init-1.0.1]
+    - Available packages for omni.kit.renderer.init version *:
+      + omni.kit.renderer.init-1.0.1+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.renderer.init-1.0.1+00c488ae.wx64.r)
+[ext: omni.appwindow-1.2.2] deps:
+ -> 'omni.kit.loop' = { version='^' } selected: [omni.kit.loop-default-0.2.2]
+    - Available packages for omni.kit.loop version *:
+      (none found)
+ -> 'carb.windowing.plugins' = { version='^' } selected: [carb.windowing.plugins-1.0.1]
+    - Available packages for carb.windowing.plugins version *:
+      + carb.windowing.plugins-1.0.1+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/carb.windowing.plugins-1.0.1+00c488ae.wx64.r)
+[ext: omni.usd.libs-1.0.3] deps:
+ -> 'omni.gpucompute.plugins' = { version='^' optional=true  } selected: [omni.gpucompute.plugins-0.0.0]
+    - Available packages for omni.gpucompute.plugins version *:
+      + omni.gpucompute.plugins-0.0.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.gpucompute.plugins-0.0.0+00c488ae.wx64.r)
+ -> 'omni.usd.config' = { version='^' } selected: [omni.usd.config-1.0.8]
+    - Available packages for omni.usd.config version *:
+      + omni.usd.config-1.0.8+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.usd.config-1.0.8+00c488ae)
+[ext: omni.usd.config-1.0.8] deps:
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0]
+    - Available packages for omni.client version *:
+      + omni.client-1.3.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.client-1.3.0+00c488ae.wx64.r)
+[ext: omni.gpucompute.plugins-0.0.0] deps:
+ -> 'omni.gpu_foundation' = { version='^' } selected: [omni.gpu_foundation-0.0.0]
+    - Available packages for omni.gpu_foundation version *:
+      + omni.gpu_foundation-0.0.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.gpu_foundation-0.0.0+00c488ae.wx64.r.cp312)
+[ext: omni.kit.test-2.1.1] deps:
+ -> 'omni.kit.async_engine' = { version='^' } selected: [omni.kit.async_engine-0.0.3]
+    - Available packages for omni.kit.async_engine version *:
+      + omni.kit.async_engine-0.0.3 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore/omni.kit.async_engine)
+ -> 'omni.kit.loop' = { version='^' } selected: [omni.kit.loop-default-0.2.2]
+    - Available packages for omni.kit.loop version *:
+      (none found)
+ -> 'omni.kit.pip_archive' = { version='^' } selected: [omni.kit.pip_archive-0.0.0]
+    - Available packages for omni.kit.pip_archive version *:
+      + omni.kit.pip_archive-0.0.0+00c488ae.wx64.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.pip_archive-0.0.0+00c488ae.wx64.cp312)
+[ext: omni.kit.loop-default-0.2.2] no deps
+[ext: omni.kit.pip_archive-0.0.0] deps:
+ -> 'omni.kit.pipapi' = { version='^' } selected: [omni.kit.pipapi-0.0.0]
+    - Available packages for omni.kit.pipapi version *:
+      + omni.kit.pipapi-0.0.0+00c488ae (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.pipapi-0.0.0+00c488ae)
+[ext: omni.kit.pipapi-0.0.0] no deps
+[ext: omni.kit.renderer.init-1.0.1] deps:
+ -> 'omni.assets.plugins' = { version='^' } selected: [omni.assets.plugins-0.0.0]
+    - Available packages for omni.assets.plugins version *:
+      + omni.assets.plugins-0.0.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.assets.plugins-0.0.0+00c488ae.wx64.r)
+ -> 'carb.windowing.plugins' = { version='^' } selected: [carb.windowing.plugins-1.0.1]
+    - Available packages for carb.windowing.plugins version *:
+      + carb.windowing.plugins-1.0.1+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/carb.windowing.plugins-1.0.1+00c488ae.wx64.r)
+ -> 'omni.gpu_foundation' = { version='^' } selected: [omni.gpu_foundation-0.0.0]
+    - Available packages for omni.gpu_foundation version *:
+      + omni.gpu_foundation-0.0.0+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.gpu_foundation-0.0.0+00c488ae.wx64.r.cp312)
+[ext: carb.windowing.plugins-1.0.1] no deps
+[ext: omni.gpu_foundation-0.0.0] deps:
+ -> 'omni.client' = { version='^' optional=true  } selected: [omni.client-1.3.0]
+    - Available packages for omni.client version *:
+      + omni.client-1.3.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.client-1.3.0+00c488ae.wx64.r)
+ -> 'omni.assets.plugins' = { version='^' } selected: [omni.assets.plugins-0.0.0]
+    - Available packages for omni.assets.plugins version *:
+      + omni.assets.plugins-0.0.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.assets.plugins-0.0.0+00c488ae.wx64.r)
+ -> 'omni.stats' = { version='^' } selected: [omni.stats-1.0.1]
+    - Available packages for omni.stats version *:
+      + omni.stats-1.0.1+00c488ae.wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.stats-1.0.1+00c488ae.wx64.r.cp312)
+ -> 'omni.gpu_foundation.shadercache.d3d12' = { version='^' } selected: [omni.gpu_foundation.shadercache.d3d12-1.0.0]
+    - Available packages for omni.gpu_foundation.shadercache.d3d12 version *:
+      + omni.gpu_foundation.shadercache.d3d12-1.0.0+00c488ae.wx64.r (c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.gpu_foundation.shadercache.d3d12-1.0.0+00c488ae.wx64.r)
+[ext: omni.stats-1.0.1] no deps
+[ext: omni.gpu_foundation.shadercache.d3d12-1.0.0] no deps
+[ext: omni.client-1.3.0] deps:
+ -> 'omni.client.lib' = { version='^' } selected: [omni.client.lib-1.1.1]
+    - Available packages for omni.client.lib version *:
+      + omni.client.lib-1.1.1+wx64.r.cp312 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore/omni.client.lib)
+[ext: omni.client.lib-1.1.1] deps:
+ -> 'omni.kit.async_engine' = { version='^' } selected: [omni.kit.async_engine-0.0.3]
+    - Available packages for omni.kit.async_engine version *:
+      + omni.kit.async_engine-0.0.3 (c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore/omni.kit.async_engine)
+[ext: omni.kit.async_engine-0.0.3] no deps
+[ext: omni.assets.plugins-0.0.0] no deps
+  Synced registries:
+     - kit/prod/default    : found 360 packages 
+     - kit/prod/sdk        : found 658 packages 
+
+2026-09-25T15:04:20Z [4,691ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.ui_test-1.5.3] (order: 0) Triggered by: exts.deps.generated-0.0.0
+2026-09-25T15:04:20Z [4,691ms] [Info] [omni.kit.app.plugin] [4.827s] Pulling extension: `omni.kit.ui_test-1.5.3` from the registry.
+2026-09-25T15:04:20Z [4,694ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/sdk] pull extension: omni.kit.ui_test-1.5.3+00c488ae in 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache'
+2026-09-25T15:04:20Z [4,695ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/sdk] omni.kit.ui_test-1.5.3+00c488ae (archive_name: omni.kit.ui_test-6a06552772da1f39) is not in cache: 'C:/Users/Abhyudaya Yadav/AppData/Local/ov/data/exts/v2'
+2026-09-25T15:04:20Z [4,698ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 77640] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.ui_test-6a06552772da1f39.zip' -> 'C:/Users/ABHYUD~1/AppData/Local/Temp/tmp35qt1i3m/omni.kit.ui_test-1.5.3+00c488ae.zip'...
+2026-09-25T15:04:20Z [4,698ms] [Info] [omni.kit.registry.nucleus.utils.omni_client_utils] (downloading ext archive) copying: https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.ui_test-6a06552772da1f39.zip -> C:/Users/ABHYUD~1/AppData/Local/Temp/tmp35qt1i3m/omni.kit.ui_test-1.5.3+00c488ae.zip
+2026-09-25T15:04:21Z [5,596ms] [Info] [omni.kit.registry.nucleus.utils.omni_client_utils] result: Result.OK
+2026-09-25T15:04:21Z [5,596ms] [Info] [omni.kit.registry.nucleus.utils.common] --> func:omni_client_copy took: 0.9060s
+2026-09-25T15:04:21Z [5,597ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 77640] unpacking: C:/Users/ABHYUD~1/AppData/Local/Temp/tmp35qt1i3m/omni.kit.ui_test-1.5.3+00c488ae.zip -> C:/Users/Abhyudaya Yadav/AppData/Local/ov/data/exts/v2/omni.kit.ui_test-6a06552772da1f39
+2026-09-25T15:04:21Z [5,606ms] [Info] [omni.ext._impl] [omni.ext] unpack_archive: 'C:/Users/ABHYUD~1/AppData/Local/Temp/tmp35qt1i3m/omni.kit.ui_test-1.5.3+00c488ae.zip' to 'C:/Users/Abhyudaya Yadav/AppData/Local/ov/data/exts/v2/omni.kit.ui_test-6a06552772da1f39'
+2026-09-25T15:04:21Z [5,632ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 77640] creating a link: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.ui_test-1.5.3+00c488ae -> C:/Users/Abhyudaya Yadav/AppData/Local/ov/data/exts/v2/omni.kit.ui_test-6a06552772da1f39
+2026-09-25T15:04:21Z [5,633ms] [Info] [packman.link] Creating Windows junction link 'c:\omniverse\kit-app-template\_build\windows-x86_64\release\extscache\omni.kit.ui_test-1.5.3+00c488ae' => 'C:\Users\Abhyudaya Yadav\AppData\Local\ov\data\exts\v2\omni.kit.ui_test-6a06552772da1f39'
+2026-09-25T15:04:21Z [5,657ms] [Info] [omni.kit.registry.nucleus.utils.common] -> func:pull_extension took: 0.9530s
+2026-09-25T15:04:21Z [5,657ms] [Info] [omni.kit.app.plugin] [5.793s] Extension: `omni.kit.ui_test-1.5.3` was installed.
+2026-09-25T15:04:21Z [5,659ms] [Info] [omni.ext.plugin] Extension system targets:
+  kitHash: 00c488ae
+  config: release
+  python: cp312
+  usd: u7f41+stock+25.11+cxx11
+  platform: windows-x86_64
+  kit: 110.3.0
+2026-09-25T15:04:21Z [5,659ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/apps/exts.deps.generated.kit' (path type: 1, dev: 0)
+2026-09-25T15:04:21Z [5,659ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache' (path type: 4, dev: 0)
+2026-09-25T15:04:21Z [5,660ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/source/apps' (path type: 0, dev: 0)
+2026-09-25T15:04:21Z [5,660ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/source/extensions' (path type: 0, dev: 0)
+2026-09-25T15:04:21Z [5,660ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extsphysics' (path type: 0, dev: 0)
+2026-09-25T15:04:21Z [5,660ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/users/abhyudaya yadav/documents/kit/shared/exts' (path type: 0, dev: 0)
+2026-09-25T15:04:21Z [5,660ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore' (path type: 0, dev: 0)
+2026-09-25T15:04:21Z [5,661ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/exts' (path type: 0, dev: 0)
+2026-09-25T15:04:21Z [5,661ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/apps' (path type: 0, dev: 0)
+2026-09-25T15:04:21Z [5,661ms] [Info] [omni.ext.plugin] Registered 1 extension(s), 0 unsuitable:
+  [ext: omni.kit.ui_test-1.5.3] registered (path: c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache/omni.kit.ui_test-1.5.3+00c488ae)
+2026-09-25T15:04:21Z [5,661ms] [Info] [omni.ext.plugin] Extension precache successful! Exiting an app.
+2026-09-25T15:04:21Z [5,663ms] [Info] [omni.kit.app.plugin] [5.799s] Generated version lock for 'exts.deps.generated-0.0.0' in file: `c:/omniverse/kit-app-template/_build/apps/exts.deps.generated.kit`
+2026-09-25T15:04:21Z [5,666ms] [Info] [omni.kit.app.plugin] No run loop was found, quitting...
+2026-09-25T15:04:21Z [5,666ms] [Info] [omni.ext.plugin] [ext manager] preferLocalVersions: 1
+2026-09-25T15:04:21Z [5,666ms] [Info] [omni.ext.plugin] Extension system targets:
+  kitHash: 00c488ae
+  config: release
+  python: cp312
+  usd: u7f41+stock+25.11+cxx11
+  platform: windows-x86_64
+  kit: 110.3.0
+2026-09-25T15:04:21Z [5,666ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/apps/exts.deps.generated.kit' (path type: 1, dev: 0)
+2026-09-25T15:04:21Z [5,666ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/extscache' (path type: 4, dev: 0)
+2026-09-25T15:04:21Z [5,667ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/source/apps' (path type: 0, dev: 0)
+2026-09-25T15:04:21Z [5,667ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/source/extensions' (path type: 0, dev: 0)
+2026-09-25T15:04:21Z [5,667ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extsphysics' (path type: 0, dev: 0)
+2026-09-25T15:04:21Z [5,667ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/users/abhyudaya yadav/documents/kit/shared/exts' (path type: 0, dev: 0)
+2026-09-25T15:04:21Z [5,667ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/extscore' (path type: 0, dev: 0)
+2026-09-25T15:04:21Z [5,667ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/exts' (path type: 0, dev: 0)
+2026-09-25T15:04:21Z [5,667ms] [Info] [omni.ext.plugin] Searching for extensions in: 'c:/omniverse/kit-app-template/_build/windows-x86_64/release/kit/apps' (path type: 0, dev: 0)
+2026-09-25T15:04:21Z [5,668ms] [Info] [omni.kit.app.plugin] Application auto-quits as it worked for the specified number of frames: 0
+2026-09-25T15:04:21Z [5,669ms] [Info] [omni.kit.app.plugin] app started
+2026-09-25T15:04:21Z [5,670ms] [Info] [carb.crashreporter-breakpad.plugin] crashreporter configured:
+    buildVersion: '110.3.0'
+    buildNumber: '371399'
+    buildHash: '00c488ae'
+    buildBranch: 'feature'
+    buildCi: 'gl'
+    buildMajor: '110'
+    buildMinor: '3'
+    buildPatch: '0'
+    buildConfig: 'release'
+    BuildGitlabJobID: '413372079'
+    buildGitlabJobStage: 'kit-build'
+    buildGitlabJobName: 'kit-build-release-windows-x86_64'
+    buildGitlabPipelineID: '64742269'
+    profilerCpuTscFrequency: '3992241472'
+    commandLine: 'C:\omniverse\kit-app-template\_build\windows-x86_64\release\kit\kit.exe C:\omniverse\kit-app-template\_build\apps\exts.deps.generated.kit --allow-root --portable --ext-precache-mode --/crashreporter/gatherUserStory=0 --/app/settings/persistent=0 --/app/settings/loadUserConfig=0 --/app/extensions/generateVersionLock=1 --/app/extensions/parallelPullEnabled=1 --/app/enableStdoutOutput=1 --/app/extensions/detailedSolverExplanation=1 --/app/extensions/registryEnabled=1 --/app/extensions/mkdirExtFolders=0 --/app/extensions/registryCacheFull='C:\omniverse\kit-app-template\_build\windows-x86_64\release\extscache' --/log/flushStandardStreamOutput=1 --/app/extensions/target/config=release --ext-folder C:\omniverse\kit-app-template\source\extensions --ext-folder C:\omniverse\kit-app-template\source\apps --/app/extensions/generateVersionLockSkipLocalExts=1 --portable-root C:/omniverse/kit-app-template/_build/windows-x86_64/release --/app/extensions/generateVersionLockSkipLocalExts=1'
+    runningInContainer: '0'
+    appName: 'exts.deps.generated'
+    appVersion: '0.0.0'
+    appState: 'shutdown'
+    environmentName: 'default'
+    portableMode: '1'
+    userId: 'default'
+    autoloadExts: ''
+    carboniteSdkVersion: '210.3.2+release.14366.2926fc80.gl'
+    carboniteFrameworkVersion: '210.3.2+release.14366.2926fc80.gl'
+    enabled: false
+    uninstalling handler
+2026-09-25T15:04:21Z [5,672ms] [Info] [carb] Shutting down plugin omni.kit.app.plugin
+2026-09-25T15:04:21Z [5,672ms] [Info] [carb] Shutting down plugin omni.ext.plugin
+2026-09-25T15:04:21Z [5,672ms] [Info] [carb] Shutting down plugin carb.scripting-python.plugin
+2026-09-25T15:04:21Z [5,672ms] [Info] [carb] Shutting down plugin carb.events.plugin
+2026-09-25T15:04:21Z [5,672ms] [Info] [carb] Shutting down plugin carb.eventdispatcher.plugin
+2026-09-25T15:04:21Z [5,672ms] [Info] [carb] Shutting down plugin carb.variant.plugin
+2026-09-25T15:04:21Z [5,672ms] [Info] [carb] Shutting down plugin carb.tasking.plugin
+2026-09-25T15:04:21Z [5,672ms] [Info] [carb] Shutting down plugin carb.crashreporter-breakpad.plugin
+2026-09-25T15:04:21Z [5,672ms] [Info] [carb] Shutting down plugin omni.observability-otel.plugin
+2026-09-25T15:04:21Z [5,672ms] [Info] [carb] Shutting down plugin carb.profiler-cpu.plugin
+2026-09-25T15:04:21Z [5,673ms] [Info] [carb] Shutting down plugin carb.dictionary.serializer-toml.plugin
+2026-09-25T15:04:21Z [5,673ms] [Info] [carb] Shutting down plugin carb.dictionary.serializer-json.plugin
+2026-09-25T15:04:21Z [5,673ms] [Info] [carb] Shutting down plugin carb.tokens.plugin
+2026-09-25T15:04:21Z [5,673ms] [Info] [carb] Shutting down plugin carb.profiler-mux.plugin
+2026-09-25T15:04:21Z [5,673ms] [Info] [carb] Shutting down plugin carb.settings.plugin
+2026-09-25T15:04:21Z [5,673ms] [Info] [carb] Shutting down plugin carb.dictionary.plugin
